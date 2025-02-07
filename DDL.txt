@@ -1,0 +1,348 @@
+
+CREATE TABLE `user`
+(
+    `user_id`    INTEGER(10) NOT NULL AUTO_INCREMENT
+ COMMENT '회원ID',
+    `user_name`    VARCHAR(30) NOT NULL COMMENT '이름',
+    `user_phone`    VARCHAR(30) NOT NULL COMMENT '전화번호',
+    `uesr_login_id`    VARCHAR(255) NOT NULL COMMENT '아이디',
+    `user_login_password`    VARCHAR(255) NOT NULL COMMENT '비밀번호',
+    `user_email`    VARCHAR(100) NOT NULL COMMENT '이메일',
+    `user_num`    VARCHAR(15) NOT NULL COMMENT '주민번호',
+    `user_crated_at`    DATETIME NOT NULL COMMENT '가입일자',
+    `block`    ENUM('Y','N') default 'N' NOT NULL COMMENT '차단여부',
+    `role`    ENUM('admin','user','business') NOT NULL COMMENT '권한',
+ PRIMARY KEY ( `user_id` )
+) COMMENT = '회원';
+
+
+CREATE TABLE `business_user`
+(
+    `business_number`    VARCHAR(30) NOT NULL COMMENT '사업자번호',
+    `doc`    VARCHAR(255) NOT NULL COMMENT '증빙서류',
+    `role`    ENUM('admin','user','business') default 'user' NOT NULL COMMENT '업체구분',
+    `user_id`    INTEGER(10) NOT NULL COMMENT '사업자 회원ID'
+ 
+) COMMENT = '사업자 정보';
+
+ALTER TABLE `business_user`
+ ADD CONSTRAINT `business_user_PK` PRIMARY KEY ( `user_id` );
+
+ALTER TABLE `business_user`
+ ADD CONSTRAINT `business_user_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
+
+
+CREATE TABLE `apt`
+(
+    `apt_id`    INTEGER(10) NOT NULL AUTO_INCREMENT
+ COMMENT '매물ID',
+    `house_location`    VARCHAR(255) NOT NULL COMMENT '위치',
+    `stairs`    VARCHAR(10) NOT NULL COMMENT '층수',
+    `bathroom`    VARCHAR(10) NOT NULL COMMENT '욕실수',
+    `room_count`    INTEGER(2) NOT NULL COMMENT '방 갯수',
+    `price`    BIGINT NOT NULL COMMENT '가격',
+    `floor_space`    INTEGER(10) NOT NULL COMMENT '평 수',
+ PRIMARY KEY ( `apt_id` )
+) COMMENT = '집 매물';
+
+
+CREATE TABLE `board`
+(
+    `board_id`    INTEGER NOT NULL AUTO_INCREMENT
+ COMMENT '게시판ID',
+    `board_title`    VARCHAR(255) NOT NULL COMMENT '제목',
+    `board_content`    VARCHAR(255) NOT NULL COMMENT '내용',
+    `user_id`    INTEGER(10) COMMENT '회원ID',
+    `board_like`   ENUM ('Y','N') COMMENT '좋아요',
+ PRIMARY KEY ( `board_id` )
+) COMMENT = '게시판';
+
+ALTER TABLE `board`
+ ADD CONSTRAINT `board_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
+
+CREATE TABLE `board_comments`
+(
+    `board_comments_id`    INTEGER NOT NULL AUTO_INCREMENT
+ COMMENT '게시판댓글ID',
+    `board_comments_content`    VARCHAR(255) NOT NULL COMMENT '내용',
+    `board_id`    INTEGER NOT NULL COMMENT '게시판ID',
+    `user_id`    INTEGER(10) COMMENT '회원ID',
+ PRIMARY KEY ( `board_comments_id` )
+) COMMENT = '게시판 댓글';
+
+ALTER TABLE `board_comments`
+ ADD CONSTRAINT `board_comments_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
+ALTER TABLE `board_comments`
+ ADD CONSTRAINT `board_comments_FK1` FOREIGN KEY ( `board_id` )
+ REFERENCES `board` (`board_id` );
+
+
+CREATE TABLE `counsel`
+(
+    `counsel_id`    INTEGER NOT NULL AUTO_INCREMENT
+ COMMENT '상담ID',
+    `counsel_status`    VARCHAR(30) COMMENT '작업단계',
+    `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
+    `사업자 회원ID`    INTEGER(10) NOT NULL COMMENT '사업자 회원ID',
+ PRIMARY KEY ( `counsel_id` )
+) COMMENT = '상담';
+
+ALTER TABLE `counsel`
+ ADD CONSTRAINT `counsel_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
+ALTER TABLE `counsel`
+ ADD CONSTRAINT `counsel_FK1` FOREIGN KEY ( `사업자 회원ID` )
+ REFERENCES `business_user` (`user_id` );
+
+
+CREATE TABLE `house_survey`
+(
+    `budget`    BIGINT NOT NULL COMMENT '예산',
+    `deal_type`    VARCHAR(30) NOT NULL COMMENT '매입 형태',
+    `house_location`    VARCHAR(255) NOT NULL COMMENT '위치',
+    `floor_space`    INTEGER(10) NOT NULL COMMENT '평수',
+    `stairs`    VARCHAR(10) NOT NULL COMMENT '층수',
+    `bathroom`    VARCHAR(10) NOT NULL COMMENT '욕실 수',
+    `comforts_info`    TEXT(255) NOT NULL COMMENT '편의시설 정보',
+    `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
+    `room_count`    INTEGER(2) NOT NULL COMMENT '방 갯수'
+) COMMENT = '매물 설문지';
+
+ALTER TABLE `house_survey`
+ ADD CONSTRAINT `house_survey_PK` PRIMARY KEY ( `user_id` );
+
+ALTER TABLE `house_survey`
+ ADD CONSTRAINT `house_survey_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+ 
+CREATE TABLE `portfolio`
+(
+    `portfolio_id`    INTEGER(10) NOT NULL AUTO_INCREMENT
+ COMMENT '소개글ID',
+    `apt_id`    INTEGER(10) COMMENT '매물ID',
+    `company_name`    VARCHAR(50) NOT NULL COMMENT '업체 이름',
+    `company_phone`    VARCHAR(30) NOT NULL COMMENT '업체 전화번호',
+    `company_location`    VARCHAR(255) NOT NULL COMMENT '업체위치',
+    `user_id`    INTEGER(10) NOT NULL COMMENT '사업자 회원ID',
+ PRIMARY KEY ( `portfolio_id` )
+) COMMENT = '업체별 게시글';
+
+ALTER TABLE `portfolio`
+ ADD CONSTRAINT `portfolio_FK` FOREIGN KEY ( `apt_id` )
+ REFERENCES `apt` (`apt_id` );
+
+ALTER TABLE `portfolio`
+ ADD CONSTRAINT `portfolio_FK1` FOREIGN KEY ( `user_id` )
+ REFERENCES `business_user` (`user_id` );
+
+CREATE TABLE `interior`
+(
+    `image`    VARCHAR(255) COMMENT '이미지파일',
+    `concept`    VARCHAR(255) NOT NULL COMMENT '컨셉',
+    `portfolio_id`    INTEGER(10) NOT NULL COMMENT '소개글ID',
+    `interior_house_type` ENUM('원룸','투룸','아파트','오피스텔','전원주택') NOT NULL COMMENT '주거 형태',
+    `interior_house_size`    INTEGER(10) NOT NULL COMMENT '평 수',
+    `interior_budget`    INTEGER(11) NOT NULL COMMENT '인테리어 예산',
+    `construction_date`    DATETIME NOT NULL COMMENT '희망 시공일'
+) COMMENT = '인테리어';
+
+ALTER TABLE `interior`
+ ADD CONSTRAINT `interior_PK` PRIMARY KEY ( `portfolio_id` );
+
+ALTER TABLE `interior`
+ ADD CONSTRAINT `interior_FK` FOREIGN KEY ( `portfolio_id` )
+ REFERENCES `portfolio` (`portfolio_id` );
+
+
+CREATE TABLE `interior_survey`
+(
+    `interior_concept`    VARCHAR(255) NOT NULL COMMENT '컨셉',
+    `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
+    `interior_house_type` ENUM('원룸','투룸','아파트','오피스텔','전원주택') NOT NULL COMMENT '주거 형태',
+    `interior_house_size`    INTEGER(10) NOT NULL COMMENT '평 수',
+    `interior_budget`    INTEGER(11) NOT NULL COMMENT '인테리어 예산',
+    `construction_date`    DATETIME NOT NULL COMMENT '희망 시공일'
+) COMMENT = '인테리어 설문지';
+
+ALTER TABLE `interior_survey`
+ ADD CONSTRAINT `interior_survey_PK` PRIMARY KEY ( `user_id` );
+
+ALTER TABLE `interior_survey`
+ ADD CONSTRAINT `interior_survey_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
+
+CREATE TABLE `likes`
+(
+    `likes_id`    INTEGER NOT NULL AUTO_INCREMENT
+ COMMENT '즐겨찾기ID',
+    `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
+    `portfolio_id`    INTEGER(10) NOT NULL COMMENT '소개글ID',
+ PRIMARY KEY ( `likes_id` )
+) COMMENT = '즐겨찾기';
+
+ALTER TABLE `likes`
+ ADD CONSTRAINT `likes_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
+ALTER TABLE `likes`
+ ADD CONSTRAINT `likes_FK1` FOREIGN KEY ( `portfolio_id` )
+ REFERENCES `portfolio` (`portfolio_id` );
+
+
+CREATE TABLE `move`
+(
+    `active_location`    VARCHAR(255) NOT NULL COMMENT '활동 가능 지역',
+    `min_price`    INTEGER(10) NOT NULL COMMENT '최저가',
+    `max_price`    INTEGER(10) NOT NULL COMMENT '최고가',
+    `move_type`    ENUM('포장','반포장') NOT NULL COMMENT '이사 형태 구분',
+    `portfolio_id`    INTEGER(10) NOT NULL COMMENT '소개글ID'
+) COMMENT = '이사';
+
+ALTER TABLE `move`
+ ADD CONSTRAINT `move_PK` PRIMARY KEY ( `portfolio_id` );
+
+ALTER TABLE `move`
+ ADD CONSTRAINT `move_FK` FOREIGN KEY ( `portfolio_id` )
+ REFERENCES `portfolio` (`portfolio_id` );
+
+
+CREATE TABLE `move_survey`
+(
+    `move_type`    ENUM('포장','반포장') NOT NULL COMMENT '이사 형태 구분',
+    `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
+    `from_address`    VARCHAR(255) NOT NULL COMMENT '출발지 주소',
+    `to_address`    VARCHAR(255) NOT NULL COMMENT '도착지 주소'
+) COMMENT = '이사 설문지';
+
+ALTER TABLE `move_survey`
+ ADD CONSTRAINT `move_survey_PK` PRIMARY KEY ( `user_id` );
+
+ALTER TABLE `move_survey`
+ ADD CONSTRAINT `move_survey_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
+
+
+
+
+CREATE TABLE `recommend`
+(
+    `recommend_id`    INTEGER(10) NOT NULL AUTO_INCREMENT
+ COMMENT '추천ID',
+    `portfolio_id`    INTEGER(10) NOT NULL COMMENT '소개글ID',
+    `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
+ PRIMARY KEY ( `recommend_id` )
+) COMMENT = '추천';
+
+ALTER TABLE `recommend`
+ ADD CONSTRAINT `recommend_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `move_survey` (`user_id` );
+
+ALTER TABLE `recommend`
+ ADD CONSTRAINT `recommend_FK1` FOREIGN KEY ( `user_id` )
+ REFERENCES `house_survey` (`user_id` );
+
+ALTER TABLE `recommend`
+ ADD CONSTRAINT `recommend_FK2` FOREIGN KEY ( `user_id` )
+ REFERENCES `interior_survey` (`user_id` );
+
+ALTER TABLE `recommend`
+ ADD CONSTRAINT `recommend_FK3` FOREIGN KEY ( `portfolio_id` )
+ REFERENCES `portfolio` (`portfolio_id` );
+
+
+CREATE TABLE `report`
+(
+    `report_id`    INTEGER(10) NOT NULL AUTO_INCREMENT
+ COMMENT '신고ID',
+    `report_contents`    VARCHAR(100) NOT NULL COMMENT '신고내용',
+    `reporter_user_id`    INTEGER(10) COMMENT '신고 할 사람 ID',
+    `report_date`    DATETIME NOT NULL COMMENT '신고 신청일',
+    `reported_id`    INTEGER(10) NOT NULL COMMENT '신고 당한 사람 ID',
+ PRIMARY KEY ( `report_id` )
+) COMMENT = '신고';
+
+ALTER TABLE `report`
+ ADD CONSTRAINT `report_FK` FOREIGN KEY ( `reporter_user_id` )
+ REFERENCES `user` (`user_id` );
+
+ALTER TABLE `report`
+ ADD CONSTRAINT `report_FK1` FOREIGN KEY ( `reported_id` )
+ REFERENCES `user` (`user_id` );
+
+
+CREATE TABLE `review`
+(
+    `review_id`    INTEGER NOT NULL AUTO_INCREMENT
+ COMMENT '이용후기ID',
+    `review_contents`    VARCHAR(255) NOT NULL COMMENT '내용',
+    `portfolio_id`    INTEGER(10) NOT NULL COMMENT '소개글ID',
+    `counsel_id`    INTEGER NOT NULL COMMENT '상담ID( 사용자 회원ID 가져오고 싶어요)',
+ PRIMARY KEY ( `review_id` )
+) COMMENT = '후기';
+
+ALTER TABLE `review`
+ ADD CONSTRAINT `review_FK` FOREIGN KEY ( `portfolio_id` )
+ REFERENCES `portfolio` (`portfolio_id` );
+
+ALTER TABLE `review`
+ ADD CONSTRAINT `review_FK1` FOREIGN KEY ( `counsel_id` )
+ REFERENCES `counsel` (`counsel_id` );
+
+
+CREATE TABLE `review_comments`
+(
+    `review_comments_id`    INTEGER NOT NULL AUTO_INCREMENT
+ COMMENT '이용후기댓글ID',
+    `review_comments_contents`    VARCHAR(255) NOT NULL COMMENT '내용',
+    `review_id`    INTEGER NOT NULL COMMENT '이용후기ID',
+    `user_id`    INTEGER(10) COMMENT '회원ID',
+ PRIMARY KEY ( `review_comments_id` )
+) COMMENT = '이용 후기 댓글';
+
+ALTER TABLE `review_comments`
+ ADD CONSTRAINT `review_comments_FK` FOREIGN KEY ( `review_id` )
+ REFERENCES `review` (`review_id` );
+
+ALTER TABLE `review_comments`
+ ADD CONSTRAINT `review_comments_FK1` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+ 
+CREATE TABLE `comfort`
+(
+    `comfort_id`    INTEGER(10) NOT NULL AUTO_INCREMENT
+ COMMENT '주변시설 코드',
+    `comfort_name`    VARCHAR(255) NOT NULL COMMENT '주변시설 이름',
+ PRIMARY KEY ( `comfort_id` )
+) COMMENT = '주변시설';
+
+
+
+CREATE TABLE `comfort_by_apt`
+(
+    `apt_comfort_id`    INTEGER(10) NOT NULL AUTO_INCREMENT
+ COMMENT '일련번호',
+    `comfort_id`    INTEGER(10) NOT NULL COMMENT '주변시설 코드',
+    `apt_id`    INTEGER(10) NOT NULL COMMENT '매물ID',
+    PRIMARY KEY (`apt_comfort_id`), 
+    UNIQUE KEY (comfort_id, apt_id)
+) COMMENT = '아파트 별 편의시설';
+
+
+ALTER TABLE `comfort_by_apt`
+ ADD CONSTRAINT `comfort_by_apt_FK` FOREIGN KEY ( `comfort_id` )
+ REFERENCES `comfort`(`comfort_id` );
+
+ALTER TABLE `comfort_by_apt`
+ ADD CONSTRAINT `comfort_by_apt_FK1` FOREIGN KEY ( `apt_id` )
+ REFERENCES `apt` (`apt_id` );
+
+
