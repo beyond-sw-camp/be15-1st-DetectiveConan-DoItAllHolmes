@@ -1,4 +1,3 @@
-
 CREATE TABLE `user`
 (
     `user_id`    INTEGER(10) NOT NULL AUTO_INCREMENT
@@ -9,7 +8,7 @@ CREATE TABLE `user`
     `user_login_password`    VARCHAR(255) NOT NULL COMMENT '비밀번호',
     `user_email`    VARCHAR(100) NOT NULL COMMENT '이메일',
     `user_num`    VARCHAR(15) NOT NULL COMMENT '주민번호',
-    `user_crated_at`   DATETIME NOT NULL COMMENT '가입일자',
+    `user_crated_at`    DATETIME NOT NULL COMMENT '가입일자',
     `block`    ENUM('Y','N') DEFAULT 'N' NOT NULL UNIQUE KEY
  COMMENT '차단여부',
     `role`    ENUM('user','admin','business') DEFAULT 'user' NOT NULL COMMENT '권한',
@@ -42,7 +41,7 @@ CREATE TABLE `board`
  COMMENT '게시판ID',
     `board_title`    VARCHAR(255) NOT NULL COMMENT '제목',
     `board_content`    VARCHAR(255) NOT NULL COMMENT '내용',
-    `user_id`    INTEGER(10) COMMENT '회원ID',
+    `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
     `board_image`    TEXT COMMENT '이미지',
  PRIMARY KEY ( `board_id` )
 ) COMMENT = '게시판';
@@ -55,12 +54,13 @@ ALTER TABLE `board`
 CREATE TABLE `board_comments`
 (
     `board_comments_id`    INTEGER(10) NOT NULL AUTO_INCREMENT
- COMMENT '게시판댓글ID',
+ COMMENT '댓글ID',
     `board_comments_content`    VARCHAR(255) NOT NULL COMMENT '내용',
     `board_id`    INTEGER(10) NOT NULL COMMENT '게시판ID',
-    `user_id`    INTEGER(10) COMMENT '회원ID',
+    `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
+    `상위댓글ID`    INTEGER(10) COMMENT '상위댓글ID',
  PRIMARY KEY ( `board_comments_id` )
-) COMMENT = '게시판 댓글';
+) COMMENT = '댓글';
 
 ALTER TABLE `board_comments`
  ADD CONSTRAINT `board_comments_FK` FOREIGN KEY ( `user_id` )
@@ -75,7 +75,7 @@ CREATE TABLE `counsel`
 (
     `counsel_id`    INTEGER(10) NOT NULL AUTO_INCREMENT
  COMMENT '상담ID',
-    `counsel_status`    ENUM('상담신청','상담중','작업완료') NOT NULL COMMENT '작업단계',
+    `counsel_status`    ENUM('상담신청','상담중','작업완료') DEFAULT '상담신청' NOT NULL COMMENT '작업단계',
     `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
     `business_user_id`    INTEGER(10) NOT NULL COMMENT '사업자 회원ID',
     `counsel_content`    VARCHAR(255) NOT NULL COMMENT '상담 내용',
@@ -98,8 +98,8 @@ CREATE TABLE `house_survey`
     `deal_type`    VARCHAR(30) NOT NULL COMMENT '매입 형태',
     `house_location`    VARCHAR(255) NOT NULL COMMENT '위치',
     `floor_space`    INTEGER(10) NOT NULL COMMENT '평수',
-    `stairs`    VARCHAR(10) NOT NULL COMMENT '층수',
-    `bathroom`    VARCHAR(10) NOT NULL COMMENT '욕실 수',
+    `stairs`    INTEGER(10) NOT NULL COMMENT '층수',
+    `bathroom`    INTEGER(10) NOT NULL COMMENT '욕실 수',
     `comforts_info`    TEXT(255) NOT NULL COMMENT '편의시설 정보',
     `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
     `room_count`    INTEGER(2) NOT NULL COMMENT '방 갯수',
@@ -254,11 +254,11 @@ CREATE TABLE `report`
     `report_id`    INTEGER(10) NOT NULL AUTO_INCREMENT
  COMMENT '신고ID',
     `report_contents`    VARCHAR(100) NOT NULL COMMENT '신고내용',
-    `reporter_user_id`    INTEGER(10) COMMENT '신고 할 사람 ID',
+    `reporter_user_id`    INTEGER(10) NOT NULL COMMENT '신고 할 사람 ID',
     `report_date`    DATETIME NOT NULL COMMENT '신고 신청일',
     `reported_id`    INTEGER(10) NOT NULL COMMENT '신고 당한 사람 ID',
     `board_id`    INTEGER(10) COMMENT '게시판ID',
-    `board_comments_id`    INTEGER(10) COMMENT '게시판댓글ID',
+    `board_comments_id`    INTEGER(10) COMMENT '댓글ID',
  PRIMARY KEY ( `report_id` )
 ) COMMENT = '신고';
 
@@ -305,7 +305,7 @@ CREATE TABLE `review_comments`
  COMMENT '이용후기댓글ID',
     `review_comments_contents`    VARCHAR(255) NOT NULL COMMENT '내용',
     `review_id`    INTEGER(10) NOT NULL COMMENT '이용후기ID',
-    `user_id`    INTEGER(10) COMMENT '회원ID',
+    `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
  PRIMARY KEY ( `review_comments_id` )
 ) COMMENT = '이용 후기 댓글';
 
@@ -348,15 +348,12 @@ ALTER TABLE `apt_comforts`
 CREATE TABLE `board_like`
 (
     `board_like_id`    INTEGER(10) NOT NULL COMMENT '게시판 좋아요ID',
-    `board_id`    INTEGER(10) NOT NULL COMMENT '게시판ID',
     `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
-    `board_like_deleted_at`    ENUM('Y','N') DEFAULT 'N' NOT NULL COMMENT '좋아요 취소 여부',
+    `board_like_deleted_at`    ENUM('Y','N') DEFAULT 'N' NOT NULL COMMENT '좋아요 여부',
+    `board_comments_id`    INTEGER(10) COMMENT '댓글ID',
+    `board_id`    INTEGER(10) COMMENT '게시판ID',
  PRIMARY KEY ( `board_like_id` )
-) COMMENT = '게시판 좋아요';
-
-ALTER TABLE `board_like`
- ADD CONSTRAINT `board_like_FK` FOREIGN KEY ( `board_id` )
- REFERENCES `board` (`board_id` );
+) COMMENT = '좋아요';
 
 ALTER TABLE `board_like`
  ADD CONSTRAINT `board_like_FK1` FOREIGN KEY ( `user_id` )
