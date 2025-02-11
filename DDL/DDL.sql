@@ -12,7 +12,7 @@ CREATE TABLE `user`
     `block`    ENUM('Y','N') DEFAULT 'N' NOT NULL UNIQUE KEY
  COMMENT '차단여부',
     `role`    ENUM('user','admin','business') DEFAULT 'user' NOT NULL COMMENT '권한',
-    `deleted_at`    ENUM('Y','N') DEFAULT 'N' NOT NULL COMMENT '삭제여부',
+    `is_delete`    ENUM('Y','N') DEFAULT 'N' NOT NULL COMMENT '삭제여부',
  PRIMARY KEY ( `user_id` )
 ) COMMENT = '회원';
 
@@ -26,7 +26,7 @@ CREATE TABLE `business_user`
     `company_name`    VARCHAR(50) NOT NULL COMMENT '업체 이름',
     `company_phone`    VARCHAR(30) NOT NULL COMMENT '업체 전화번호',
     `company_location`    VARCHAR(255) NOT NULL COMMENT '업체위치',
-    `deleted_at`    ENUM('Y','N') DEFAULT 'N' NOT NULL COMMENT '삭제여부',
+    `is_delete`    ENUM('Y','N') DEFAULT 'N' NOT NULL COMMENT '삭제여부',
  PRIMARY KEY ( `user_id` )
 ) COMMENT = '사업자 정보';
 
@@ -58,7 +58,7 @@ CREATE TABLE `board_comments`
     `board_comments_content`    VARCHAR(255) NOT NULL COMMENT '내용',
     `board_id`    INTEGER(10) NOT NULL COMMENT '게시판ID',
     `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
-    `상위댓글ID`    INTEGER(10) COMMENT '상위댓글ID',
+    `high_comment_id`    INTEGER(10) COMMENT '상위댓글ID',
  PRIMARY KEY ( `board_comments_id` )
 ) COMMENT = '댓글';
 
@@ -116,7 +116,7 @@ CREATE TABLE `portfolio`
     `portfolio_id`    INTEGER(10) NOT NULL AUTO_INCREMENT
  COMMENT '소개글ID',
     `user_id`    INTEGER(10) NOT NULL COMMENT '사업자 회원ID',
-    `deleted_at`    ENUM('Y','N') DEFAULT 'N' NOT NULL COMMENT '삭제여부',
+    `is_delete`    ENUM('Y','N') DEFAULT 'N' NOT NULL COMMENT '삭제여부',
  PRIMARY KEY ( `portfolio_id` )
 ) COMMENT = '업체별 게시글';
 
@@ -210,7 +210,7 @@ CREATE TABLE `likes`
  COMMENT '즐겨찾기ID',
     `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
     `portfolio_id`    INTEGER(10) NOT NULL COMMENT '소개글ID',
-    `deleted_at`    ENUM('Y','N') DEFAULT 'N' NOT NULL COMMENT '삭제여부',
+    `is_delete`    ENUM('Y','N') DEFAULT 'N' NOT NULL COMMENT '삭제여부',
  PRIMARY KEY ( `likes_id` )
 ) COMMENT = '즐겨찾기';
 
@@ -349,7 +349,7 @@ CREATE TABLE `board_like`
 (
     `board_like_id`    INTEGER(10) NOT NULL COMMENT '게시판 좋아요ID',
     `user_id`    INTEGER(10) NOT NULL COMMENT '회원ID',
-    `board_like_deleted_at`    ENUM('Y','N') DEFAULT 'N' NOT NULL COMMENT '좋아요 여부',
+    `board_like_is_delete`    ENUM('Y','N') DEFAULT 'N' NOT NULL COMMENT '좋아요 여부',
     `board_comments_id`    INTEGER(10) COMMENT '댓글ID',
     `board_id`    INTEGER(10) COMMENT '게시판ID',
  PRIMARY KEY ( `board_like_id` )
