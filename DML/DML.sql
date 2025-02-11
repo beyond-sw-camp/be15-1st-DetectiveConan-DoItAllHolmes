@@ -101,7 +101,8 @@ VALUES
 (150000000, '전세', '경기도 수원시 영통구', 23, 1, 1, '편의점, 카페, 주차 공간', 18, 1),
 (100000000, '매매', '서울 동작구 상도동', 25, 2, 1, '도시철도 근처, 학교 근처', 19, 2),
 (700000000, '매매', '서울 서초구 방배동', 40, 12, 2, '하이마트, 대형마트, 공원 근처', 20, 4);
-DROP TABLE portfolio;
+
+
 -- 업체 소개 portfolio
 INSERT INTO portfolio (user_id)
 VALUES
@@ -322,7 +323,6 @@ VALUES
 (5, 9),  -- 아파트 5번, 도서관
 (5, 10); -- 아파트 5번, 체육관
 
-DROP TABLE board_like;
 -- 게시글 좋아요 board_like
 INSERT INTO board_like (board_like_id, board_id, user_id, board_like_is_delete)
 VALUES
