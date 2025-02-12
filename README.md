@@ -290,7 +290,8 @@
 <summary>부동산 상담 신청 취소</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/df6f1e5c-a0d9-4a11-8f54-e96926098025)
+
 
 </div>
 </details>
@@ -320,7 +321,9 @@
 <summary>부동산 작업 단계 수정</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/8d019714-267f-4fc2-98b3-629844d86128)
+ ![image](https://github.com/user-attachments/assets/df815840-4d3d-45d1-800a-78262cbc0614)
+
 
 </div>
 </details>
@@ -975,7 +978,13 @@
 <summary>통계데이터 조회</summary>
 <div markdown="1">
 
- 
+![image](https://github.com/user-attachments/assets/e6990f8a-359f-4afe-a7b8-2a4fe4474394)
+![image](https://github.com/user-attachments/assets/4b163807-e483-4034-94b4-6b5d9e8f8e96)
+![image](https://github.com/user-attachments/assets/9813a5c1-284c-4386-93fc-03f723232a14)
+![image](https://github.com/user-attachments/assets/84ed2927-1a7c-462e-b5ed-d6c80e250389)
+![image](https://github.com/user-attachments/assets/e47efb29-d5eb-45cc-b42c-42dd5eaa1efe)
+![image](https://github.com/user-attachments/assets/9b65bf34-268b-4e8d-b0c0-1fe08b679390)
+
 
 </div>
 </details>
@@ -984,7 +993,8 @@
 <summary>작업 단계 조회</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/c3630d44-6f8f-457c-bae9-01f66ea31d4e)
+
 
 </div>
 </details>
@@ -1007,7 +1017,8 @@
 <summary>이용 후기 수정</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/d6b3cfb2-6ef7-49ad-9b54-7a86a7292283)
+
 
 </div>
 </details>
@@ -1016,8 +1027,10 @@
 <summary>이용 후기 삭제</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/22e07331-4165-48f1-985a-f56512614216)
+ ![image](https://github.com/user-attachments/assets/cfdf13e5-3475-4c8f-a1ef-f2e916ae34b2)
 
+ 
 </div>
 </details>
 
@@ -1025,7 +1038,8 @@
 <summary>이용 후기 조회</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/c527d163-43f3-461d-862d-ceae14cc0b00)
+
 
 </div>
 </details>
@@ -1034,7 +1048,8 @@
 <summary>특정 이용 후기 조회</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/5ac5ff1e-7b33-4809-b9f1-0810de7e0d8a)
+
 
 </div>
 </details>
@@ -1050,7 +1065,8 @@
 <summary>업체 이용후기 댓글 작성</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/4eec621a-0fd2-490e-85bc-a15394ea7e44)
+
 
 </div>
 </details>
@@ -1059,7 +1075,9 @@
 <summary>업체 이용후기 댓글 수정</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/a48af61c-9d7c-4689-913d-f4cfac31b8ef)
+ ![image](https://github.com/user-attachments/assets/e0f6f51e-ec79-4a30-beb5-814ed5b948ac)
+
 
 </div>
 </details>
@@ -1077,7 +1095,8 @@
 <summary>업체 이용후기 댓글 조회</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/321ba4a5-b0d9-445d-ab9a-dcc5624fc5ea)
+
 
 </div>
 </details>
@@ -1086,7 +1105,8 @@
 <summary>커뮤니티 게시글 댓글 작성</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/c9b98c0f-b199-4982-b8c6-6b5f8df745ee)
+
 
 </div>
 </details>
@@ -1095,7 +1115,8 @@
 <summary>커뮤니티 게시글 댓글 수정</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/d5f4570b-85ee-4e9b-a521-304fb64cb1c0)
+
 
 </div>
 </details>
@@ -1104,7 +1125,8 @@
 <summary>커뮤니티 게시글 댓글 삭제</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/cdc52592-1129-45d3-ab83-47911202cbcc)
+
 
 </div>
 </details>
@@ -1112,7 +1134,8 @@
 <summary>커뮤니티 게시글 댓글 조회</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/77627898-790b-40c0-bfb6-c303e65058f2)
+
 
 </div>
 </details>
