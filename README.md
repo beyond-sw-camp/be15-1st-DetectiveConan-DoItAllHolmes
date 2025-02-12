@@ -439,7 +439,8 @@
 <summary>인테리어 게시글 작성</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/48e557d4-f059-40c4-99cf-f00944be2277)
+
 
 </div>
 </details>
