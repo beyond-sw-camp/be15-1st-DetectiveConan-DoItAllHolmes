@@ -359,7 +359,8 @@
 <summary>인테리어 업체 정보 조회</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/10416c7d-d12a-4e7e-91ff-51471b3166f2)
+
 
 </div>
 </details>
@@ -368,7 +369,8 @@
 <summary>인테리어 상담 신청 조회</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/4fa34bcd-2d1e-4316-92ab-3bc6b94f4fb8)
+
 
 </div>
 </details>
@@ -377,7 +379,8 @@
 <summary>인테리어 상담 신청 작성</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/16dc4576-ba93-4f8a-9daa-2bc0e033088c)
+
 
 </div>
 </details>
@@ -386,7 +389,8 @@
 <summary>인테리어 상담 신청 취소</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/0f230ac0-27a8-49b7-9ce8-c3a59a657e78)
+
 
 </div>
 </details>
@@ -395,7 +399,8 @@
 <summary>인테리어 업체 즐겨찾기 기능</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/fa3da8c3-601f-4242-902d-ac2b192db3b5)
+
 
 </div>
 </details>
@@ -404,7 +409,8 @@
 <summary>인테리어 업체 즐겨찾기 취소</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/8aae1015-456a-45dd-86e4-8758d6f5641c)
+
 
 </div>
 </details>
@@ -413,7 +419,8 @@
 <summary>인테리어 작업 단계 수정</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/3129df90-5e19-4363-8391-4949563e6598)
+
 
 </div>
 </details>
@@ -422,7 +429,8 @@
 <summary>인테리어 작업 단계 조회</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/2f30e888-91b7-4bbd-a9a7-9775dbadb59c)
+
 
 </div>
 </details>
