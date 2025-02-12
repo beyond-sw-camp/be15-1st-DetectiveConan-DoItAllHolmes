@@ -299,7 +299,8 @@
 <summary>부동산 즐겨찾기 기능</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/c03a9983-f31b-4481-94f7-8cc950d55089)
+
 
 </div>
 </details>
@@ -308,7 +309,9 @@
 <summary>부동산 즐겨찾기기 취소</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/0f78660d-efca-47f4-87ca-32dc3f36265a)
+ ![image](https://github.com/user-attachments/assets/ad4bc8ab-e99c-44bf-af22-86346e30c347)
+
 
 </div>
 </details>
@@ -962,7 +965,8 @@
 <summary>공지사항 삭제</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/2576d623-7a3f-488b-b08b-dd5407f25aa0)
+
 
 </div>
 </details>
