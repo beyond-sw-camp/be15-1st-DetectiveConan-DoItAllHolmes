@@ -349,7 +349,8 @@
 <summary>인테리어 업체 정보 삭제</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/c3af70ae-4f77-4740-a9f6-9f2190c5237f)
+
 
 </div>
 </details>
