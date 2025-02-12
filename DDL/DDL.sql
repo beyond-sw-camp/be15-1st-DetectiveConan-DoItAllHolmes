@@ -29,6 +29,10 @@ CREATE TABLE business_user
  UNIQUE (user_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '사업자 정보';
 
+ALTER TABLE `business_user`
+ ADD CONSTRAINT `business_user_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
 CREATE TABLE board
 (
     board_id    INTEGER(10) NOT NULL AUTO_INCREMENT COMMENT '게시판ID',
@@ -39,6 +43,10 @@ CREATE TABLE board
  PRIMARY KEY ( board_id ),
  UNIQUE (board_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '게시판';
+
+ALTER TABLE `board`
+ ADD CONSTRAINT `board_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
 
 CREATE TABLE board_comments
 (
@@ -51,6 +59,14 @@ CREATE TABLE board_comments
  UNIQUE (board_comments_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '댓글';
 
+ALTER TABLE `board_comments`
+ ADD CONSTRAINT `board_comments_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
+ALTER TABLE `board_comments`
+ ADD CONSTRAINT `board_comments_FK1` FOREIGN KEY ( `board_id` )
+ REFERENCES `board` (`board_id` );
+
 CREATE TABLE counsel
 (
     counsel_id    INTEGER(10) NOT NULL AUTO_INCREMENT COMMENT '상담ID',
@@ -62,6 +78,16 @@ CREATE TABLE counsel
  PRIMARY KEY ( counsel_id ),
  UNIQUE (counsel_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '상담';
+
+
+ALTER TABLE `counsel`
+ ADD CONSTRAINT `counsel_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
+ALTER TABLE `counsel`
+ ADD CONSTRAINT `counsel_FK1` FOREIGN KEY ( `business_user_id` )
+ REFERENCES `business_user` (`user_id` );
+
 
 CREATE TABLE house_survey
 (
@@ -78,6 +104,11 @@ CREATE TABLE house_survey
  UNIQUE (user_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '매물 설문지';
 
+ALTER TABLE `house_survey`
+ ADD CONSTRAINT `house_survey_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
+
 CREATE TABLE portfolio
 (
     portfolio_id    INTEGER(10) NOT NULL AUTO_INCREMENT COMMENT '소개글ID',
@@ -87,6 +118,10 @@ CREATE TABLE portfolio
  UNIQUE (portfolio_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '업체별 게시글';
 
+ALTER TABLE `portfolio`
+ ADD CONSTRAINT `portfolio_FK1` FOREIGN KEY ( `user_id` )
+ REFERENCES `business_user` (`user_id` );
+ 
 CREATE TABLE apt
 (
     house_location    VARCHAR(255) NOT NULL COMMENT '위치',
@@ -101,6 +136,10 @@ CREATE TABLE apt
  UNIQUE (portfolio_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '집 매물';
 
+ALTER TABLE `apt`
+ ADD CONSTRAINT `apt_FK` FOREIGN KEY ( `portfolio_id` )
+ REFERENCES `portfolio` (`portfolio_id` );
+
 CREATE TABLE interior
 (
     portfolio_id    INTEGER(10) NOT NULL COMMENT '소개글ID',
@@ -114,6 +153,10 @@ CREATE TABLE interior
  UNIQUE (portfolio_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '인테리어';
 
+ALTER TABLE `interior`
+ ADD CONSTRAINT `interior_FK` FOREIGN KEY ( `portfolio_id` )
+ REFERENCES `portfolio` (`portfolio_id` );
+
 CREATE TABLE move
 (
     portfolio_id    INTEGER(10) NOT NULL COMMENT '소개글ID',
@@ -125,6 +168,10 @@ CREATE TABLE move
  UNIQUE (portfolio_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '이사';
 
+ALTER TABLE `move`
+ ADD CONSTRAINT `move_FK` FOREIGN KEY ( `portfolio_id` )
+ REFERENCES `portfolio` (`portfolio_id` );
+
 CREATE TABLE move_survey
 (
     user_id    INTEGER(10) NOT NULL COMMENT '회원ID',
@@ -134,6 +181,11 @@ CREATE TABLE move_survey
  PRIMARY KEY ( user_id ),
  UNIQUE (user_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '이사 설문지';
+
+ALTER TABLE `move_survey`
+ ADD CONSTRAINT `move_survey_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
 
 CREATE TABLE interior_survey
 (
@@ -146,6 +198,11 @@ CREATE TABLE interior_survey
  UNIQUE (user_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '인테리어 설문지';
 
+ALTER TABLE `interior_survey`
+ ADD CONSTRAINT `interior_survey_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
+
 CREATE TABLE likes
 (
     likes_id    INTEGER NOT NULL AUTO_INCREMENT COMMENT '즐겨찾기ID',
@@ -156,6 +213,14 @@ CREATE TABLE likes
  UNIQUE (likes_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '즐겨찾기';
 
+ALTER TABLE `likes`
+ ADD CONSTRAINT `likes_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
+ALTER TABLE `likes`
+ ADD CONSTRAINT `likes_FK1` FOREIGN KEY ( `portfolio_id` )
+ REFERENCES `portfolio` (`portfolio_id` );
+
 CREATE TABLE recommend
 (
     recommend_id    INTEGER(10) NOT NULL AUTO_INCREMENT COMMENT '추천ID',
@@ -164,6 +229,23 @@ CREATE TABLE recommend
  PRIMARY KEY ( recommend_id ),
  UNIQUE (recommend_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '추천';
+
+ALTER TABLE `recommend`
+ ADD CONSTRAINT `recommend_FK` FOREIGN KEY ( `user_id` )
+ REFERENCES `move_survey` (`user_id` );
+
+ALTER TABLE `recommend`
+ ADD CONSTRAINT `recommend_FK1` FOREIGN KEY ( `user_id` )
+ REFERENCES `house_survey` (`user_id` );
+
+ALTER TABLE `recommend`
+ ADD CONSTRAINT `recommend_FK2` FOREIGN KEY ( `user_id` )
+ REFERENCES `interior_survey` (`user_id` );
+
+ALTER TABLE `recommend`
+ ADD CONSTRAINT `recommend_FK3` FOREIGN KEY ( `portfolio_id` )
+ REFERENCES `portfolio` (`portfolio_id` );
+
 
 CREATE TABLE report
 (
@@ -178,6 +260,23 @@ CREATE TABLE report
  UNIQUE (report_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '신고';
 
+ALTER TABLE `report`
+ ADD CONSTRAINT `report_FK` FOREIGN KEY ( `reporter_user_id` )
+ REFERENCES `user` (`user_id` );
+
+ALTER TABLE `report`
+ ADD CONSTRAINT `report_FK1` FOREIGN KEY ( `reported_id` )
+ REFERENCES `user` (`user_id` );
+
+ALTER TABLE `report`
+ ADD CONSTRAINT `report_FK2` FOREIGN KEY ( `board_id` )
+ REFERENCES `board` (`board_id` );
+
+ALTER TABLE `report`
+ ADD CONSTRAINT `report_FK3` FOREIGN KEY ( `board_comments_id` )
+ REFERENCES `board_comments` (`board_comments_id` );
+
+
 CREATE TABLE review
 (
     review_id    INTEGER(10) NOT NULL AUTO_INCREMENT COMMENT '이용후기ID',
@@ -189,6 +288,15 @@ CREATE TABLE review
  UNIQUE (review_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '후기';
 
+ALTER TABLE `review`
+ ADD CONSTRAINT `review_FK` FOREIGN KEY ( `portfolio_id` )
+ REFERENCES `portfolio` (`portfolio_id` );
+
+ALTER TABLE `review`
+ ADD CONSTRAINT `review_FK1` FOREIGN KEY ( `counsel_id` )
+ REFERENCES `counsel` (`counsel_id` );
+
+
 CREATE TABLE review_comments
 (
     review_comments_id    INTEGER NOT NULL AUTO_INCREMENT COMMENT '이용후기댓글ID',
@@ -198,6 +306,15 @@ CREATE TABLE review_comments
  PRIMARY KEY ( review_comments_id ),
  UNIQUE (review_comments_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '이용 후기 댓글';
+
+ALTER TABLE `review_comments`
+ ADD CONSTRAINT `review_comments_FK` FOREIGN KEY ( `review_id` )
+ REFERENCES `review` (`review_id` );
+
+ALTER TABLE `review_comments`
+ ADD CONSTRAINT `review_comments_FK1` FOREIGN KEY ( `user_id` )
+ REFERENCES `user` (`user_id` );
+
 
 CREATE TABLE comfort
 (
@@ -226,3 +343,11 @@ CREATE TABLE board_like
  PRIMARY KEY ( board_like_id ),
  UNIQUE (board_like_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '좋아요';
+
+ALTER TABLE `apt_comforts`
+ ADD CONSTRAINT `apt_comforts_FK` FOREIGN KEY ( `comfort_id` )
+ REFERENCES `comfort` (`comfort_id` );
+
+ALTER TABLE `apt_comforts`
+ ADD CONSTRAINT `apt_comforts_FK1` FOREIGN KEY ( `portfolio_id` )
+ REFERENCES `apt` (`portfolio_id` );
