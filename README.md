@@ -83,7 +83,7 @@
 | Category | Tools/Technologies |  
 |----------|-------------------|
 | Database |<img src = "https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" >|
-| VCS      |<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=w원
+| VCS      |<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 <details>
 <summary> 회원</summary>
