@@ -259,25 +259,7 @@
 </details>
 
 <details>
-<summary>상담 신청 조회</summary>
-<div markdown="1">
-
-![여행 후기 신고](assets/images/여행후기신고.png)
-
-</div>
-</details>
-
-<details>
-<summary>부동산 즐겨찾기 기능</summary>
-<div markdown="1">
-
-![여행 후기 신고](assets/images/여행후기신고.png)
-
-</div>
-</details>
-
-<details>
-<summary>부동산 즐겨찾기 취소</summary>
+<summary>부동산 상담 신청 조회</summary>
 <div markdown="1">
 
 ![여행 후기 신고](assets/images/여행후기신고.png)
@@ -296,6 +278,24 @@
 
 <details>
 <summary>부동산 상담 신청 취소</summary>
+<div markdown="1">
+
+![여행 후기 신고](assets/images/여행후기신고.png)
+
+</div>
+</details>
+
+<details>
+<summary>부동산 즐겨찾기 기능</summary>
+<div markdown="1">
+
+![여행 후기 신고](assets/images/여행후기신고.png)
+
+</div>
+</details>
+
+<details>
+<summary>부동산 즐겨찾기기 취소</summary>
 <div markdown="1">
 
 ![여행 후기 신고](assets/images/여행후기신고.png)
@@ -364,24 +364,6 @@
 </details>
 
 <details>
-<summary>인테리어 업체 즐겨찾기 기능</summary>
-<div markdown="1">
-
-![여행 후기 신고](assets/images/여행후기신고.png)
-
-</div>
-</details>
-
-<details>
-<summary>인테리어 업체 즐겨찾기 취소</summary>
-<div markdown="1">
-
-![여행 후기 신고](assets/images/여행후기신고.png)
-
-</div>
-</details>
-
-<details>
 <summary>인테리어 상담 신청 조회</summary>
 <div markdown="1">
 
@@ -401,6 +383,24 @@
 
 <details>
 <summary>인테리어 상담 신청 취소</summary>
+<div markdown="1">
+
+![여행 후기 신고](assets/images/여행후기신고.png)
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 업체 즐겨찾기 기능</summary>
+<div markdown="1">
+
+![여행 후기 신고](assets/images/여행후기신고.png)
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 업체 즐겨찾기 취소</summary>
 <div markdown="1">
 
 ![여행 후기 신고](assets/images/여행후기신고.png)
@@ -513,24 +513,6 @@
 </details>
 
 <details>
-<summary>이사 업체 즐겨찾기 기능</summary>
-<div markdown="1">
-
-![여행 후기 신고](assets/images/여행후기신고.png)
-
-</div>
-</details>
-
-<details>
-<summary>이사 업체 즐겨찾기 취소</summary>
-<div markdown="1">
-
-![여행 후기 신고](assets/images/여행후기신고.png)
-
-</div>
-</details>
-
-<details>
 <summary>이사 업체 상담 신청 작성</summary>
 <div markdown="1">
 
@@ -541,6 +523,24 @@
 
 <details>
 <summary>이사 업체 상담 신청 취소</summary>
+<div markdown="1">
+
+![여행 후기 신고](assets/images/여행후기신고.png)
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 즐겨찾기 기능</summary>
+<div markdown="1">
+
+![여행 후기 신고](assets/images/여행후기신고.png)
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 즐겨찾기 취소</summary>
 <div markdown="1">
 
 ![여행 후기 신고](assets/images/여행후기신고.png)
