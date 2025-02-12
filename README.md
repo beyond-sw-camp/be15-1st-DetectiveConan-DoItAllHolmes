@@ -94,7 +94,7 @@
 <summary>로그인</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -103,7 +103,7 @@
 <summary>회원가입</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -112,7 +112,7 @@
 <summary>회원 정보 수정</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -121,7 +121,7 @@
 <summary>회원정보찾기</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -130,7 +130,7 @@
 <summary>회원신고</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -139,7 +139,7 @@
 <summary>내가 쓴 이용후기 모아보기</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -148,7 +148,7 @@
 <summary>즐겨찾기 모아보기</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -157,7 +157,7 @@
 <summary>회원탈퇴</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -166,7 +166,7 @@
 <summary>상담 신청 목록 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -175,7 +175,7 @@
 <summary>상담 신청 내용 상세 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -190,7 +190,7 @@
 <summary>부동산 업체 정보 작성</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -199,7 +199,7 @@
 <summary>부동산 업체 정보 수정</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -208,7 +208,7 @@
 <summary>부동산 업체 정보 삭제</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -217,7 +217,7 @@
 <summary>부동산 업체 정보 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -226,7 +226,7 @@
 <summary>부동산 매물 글 작성</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -235,7 +235,7 @@
 <summary>부동산 매물 글 수정</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -244,7 +244,7 @@
 <summary>부동산 매물 글 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -253,7 +253,7 @@
 <summary>부동산 매물 글 삭제</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -262,7 +262,7 @@
 <summary>부동산 상담 신청 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -271,7 +271,7 @@
 <summary>부동산 상담 신청 작성</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -280,7 +280,7 @@
 <summary>부동산 상담 신청 취소</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -289,7 +289,7 @@
 <summary>부동산 즐겨찾기 기능</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -298,7 +298,7 @@
 <summary>부동산 즐겨찾기기 취소</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -307,7 +307,7 @@
 <summary>부동산 작업 단계 수정</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -316,7 +316,7 @@
 <summary>부동산 작업 단계 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -331,7 +331,7 @@
 <summary>인테리어 업체 정보 작성</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -340,7 +340,7 @@
 <summary>인테리어 업체 정보 수정</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -349,7 +349,7 @@
 <summary>인테리어 업체 정보 삭제</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -358,7 +358,7 @@
 <summary>인테리어 업체 정보 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -367,7 +367,7 @@
 <summary>인테리어 상담 신청 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -376,7 +376,7 @@
 <summary>인테리어 상담 신청 작성</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -385,7 +385,7 @@
 <summary>인테리어 상담 신청 취소</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -394,7 +394,7 @@
 <summary>인테리어 업체 즐겨찾기 기능</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -403,7 +403,7 @@
 <summary>인테리어 업체 즐겨찾기 취소</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -412,7 +412,7 @@
 <summary>인테리어 작업 단계 수정</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -421,7 +421,7 @@
 <summary>인테리어 작업 단계 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -430,7 +430,7 @@
 <summary>인테리어 게시글 작성</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -439,7 +439,7 @@
 <summary>인테리어 게시글 수정</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -448,7 +448,7 @@
 <summary>인테리어 게시글 삭제</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -457,7 +457,7 @@
 <summary>인테리어 게시글 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -472,7 +472,7 @@
 <summary>이사 업체 정보 작성</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -481,7 +481,7 @@
 <summary>이사 업체 정보 수정</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -489,7 +489,7 @@
 <summary>이사 업체 정보 삭제</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -498,7 +498,7 @@
 <summary>이사 업체 정보 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -507,7 +507,7 @@
 <summary>이사 업체 상담 신청 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -516,7 +516,7 @@
 <summary>이사 업체 상담 신청 작성</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -525,7 +525,7 @@
 <summary>이사 업체 상담 신청 취소</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -534,7 +534,7 @@
 <summary>이사 업체 즐겨찾기 기능</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -543,7 +543,7 @@
 <summary>이사 업체 즐겨찾기 취소</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -552,7 +552,7 @@
 <summary>이사 작업 단계 수정</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -561,7 +561,7 @@
 <summary>이사 작업 단계 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -570,7 +570,7 @@
 <summary>이사 업체 게시글 작성</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -579,7 +579,7 @@
 <summary>이사 업체 게시글 수정</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -588,7 +588,7 @@
 <summary>이사 업체 게시글 삭제</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
@@ -597,8 +597,544 @@
 <summary>이사 업체 게시글 조회</summary>
 <div markdown="1">
 
-![여행 후기 신고](assets/images/여행후기신고.png)
+ 
 
 </div>
 </details>
+</details>
+
+
+
+<details>
+<summary> 커뮤니티</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>게시글 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>게시글 상세 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+
+<details>
+<summary>게시글 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>게시글 수정</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>게시글 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>게시글 좋아요</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>게시글 좋아요 취소</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>게시글 좋아요 개수</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>공지사항 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+</details>
+
+<details>
+<summary> 설문</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>매물 설문지 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>매물 설문지 수정</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>매물 설문지 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 설문지 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 설문지 수정</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>이사 설문지 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+
+<details>
+<summary>인테리어 설문지 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 설문지 수정</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 설문지 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+</details>
+
+<details>
+<summary> 매칭</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>매물 매칭</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 매칭</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 업체 매칭</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+</details>
+
+<details>
+<summary> 관리자</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>회원 정보 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>회원 정보 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>사업자 인증 확인</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>사업자 정보 조회</summary>
+<div markdown="1">
+
+ 
+</div>
+</details>
+
+<details>
+<summary>사업자 정보 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>회원 차단</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>게시글 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>공지사항 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>공지사항 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>통계데이터 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>작업 단계 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+</details>
+<details>
+<summary> 이용 후기</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>이용 후기 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>이용 후기 수정</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>이용 후기 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>이용 후기 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>특정 이용 후기 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+</details>
+
+<details>
+<summary> 댓글</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>업체 이용후기 댓글 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>업체 이용후기 댓글 수정</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>업체 이용후기 댓글 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>업체 이용후기 댓글 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 댓글 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 댓글 수정</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 댓글 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+<details>
+<summary>커뮤니티 게시글 댓글 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 댓글 좋아요</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 댓글 좋아요 취소</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 댓글 좋아요 합계</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 수정</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 좋아요</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 좋아요 취소</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 합계</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
 </details>
