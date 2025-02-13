@@ -95,6 +95,8 @@
 <summary> 로그인</summary>
 <div markdown="1">
 
+
+
 </div>
 </details>
 
@@ -280,7 +282,8 @@
 <summary>부동산 상담 신청 작성</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/6408335d-2587-4b92-b4e7-f264c9b5f4e2)
+
 
 </div>
 </details>
@@ -331,7 +334,8 @@
 <summary>부동산 작업 단계 조회</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/81fed87c-0efd-489f-ad3e-bfce0e136228)
+
 
 </div>
 </details>
@@ -346,7 +350,8 @@
 <summary>인테리어 업체 정보 작성</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/f53ce442-761a-43fa-95d2-d20ef4690058)
+
 
 </div>
 </details>
@@ -355,7 +360,9 @@
 <summary>인테리어 업체 정보 수정</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/68291c63-4ebc-43b6-af1f-5bcfb3d6520b)
+![image](https://github.com/user-attachments/assets/3ae39fbb-4c66-4064-8af1-5220b3ace029)
+
 
 </div>
 </details>
@@ -710,7 +717,8 @@
 <summary>게시글 좋아요</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/ca39b3ff-a5c1-48dd-9cc3-59aa1dea264b)
+
 
 </div>
 </details>
@@ -719,7 +727,8 @@
 <summary>게시글 좋아요 취소</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/544818ea-4cce-4237-95bc-3f84d96348b7)
+
 
 </div>
 </details>
@@ -728,7 +737,8 @@
 <summary>게시글 좋아요 개수</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/b48e7794-8b99-483f-8e21-7b9b247d7ea3)
+
 
 </div>
 </details>
@@ -884,7 +894,8 @@
 <summary>회원 정보 조회</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/082141ed-fe02-4646-9ee2-6eea10bce908)
+
 
 </div>
 </details>
@@ -893,7 +904,8 @@
 <summary>회원 정보 삭제</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/8e21b572-2a6c-441b-9e6a-db536255e2f0)
+
 
 </div>
 </details>
@@ -902,7 +914,8 @@
 <summary>사업자 인증 확인</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/c6711f6d-67e3-495f-a712-26c821d74f86)
+
 
 </div>
 </details>
@@ -919,7 +932,8 @@
 <summary>사업자 정보 삭제</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/97662254-d2cc-4bda-8042-b8a7e283d0cf)
+
 
 </div>
 </details>
@@ -938,7 +952,8 @@
 <summary>게시글 삭제</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/455be502-93d6-49d3-9247-fbd7ac45bc1c)
+
 
 </div>
 </details>
@@ -1085,7 +1100,9 @@
 <summary>업체 이용후기 댓글 삭제</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/3f847f84-a31f-415c-bf4d-1b879b07c418)
+![image](https://github.com/user-attachments/assets/73d7be17-5ffb-4a68-bfe5-4a5aefb7af80)
+
 
 </div>
 </details>
