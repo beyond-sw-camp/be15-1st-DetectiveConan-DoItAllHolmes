@@ -818,7 +818,9 @@
 <details>
 <summary>³인테리어 업체 매칭</summary>
 <div markdown="1">
-![image](https://github.com/user-attachments/assets/6012a984-b1de-4508-a66e-4a332f6513ad)
+
+![image](https://github.com/user-attachments/assets/105ba380-4768-4131-b6c7-bd375f8477fe)
+
 
 
 </div>
