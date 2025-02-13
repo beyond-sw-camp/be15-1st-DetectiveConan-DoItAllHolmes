@@ -1,6 +1,9 @@
-# 다 해줘 홈즈!🕵️‍♀️ 사용자 맞춤 이사, 인테리어, 부동산 추천 시스템 🏘
-![image](https://github.com/user-attachments/assets/54785bc3-65f6-45c2-9458-b3ba2a02a990) ![image](https://github.com/user-attachments/assets/f1127a68-9c40-49f1-a730-3b2f3f49b0ee)
-
+# 다 해줘 홈즈!🕵️‍♀️ 사용자 맞춤 이사, 인테리어, 부동산 추천 시스템 🏘  
+---
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/54785bc3-65f6-45c2-9458-b3ba2a02a990" width="300">
+    <img src="https://github.com/user-attachments/assets/54095a8e-f1c9-4208-90f1-30e5a67af0d1" width="300">
+</p>
 
 ### 🔍 Do It All, Holmes!
 
@@ -8,6 +11,7 @@
 WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!  
 논리 모델링 이미지 넣어주세요  
 물리 모델링 이미지 넣어주세요  
+회고는 각자? 서로?
 ## 목차
 1. [프로젝트 기획서](#Project-Proposal)
 2. [프로젝트 세부 사항](#Project-Detail)
@@ -81,7 +85,7 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 >  
 > **3️⃣ 믿을 수 있는 업체를 소개 받고 싶다!**
 >
-> ## → 위의 과정을 ONE-STEP으로 소개 받고 싶은 사람🙋‍♀️
+>  ## → 위의 과정을 ONE-STEP으로 소개 받고 싶은 사람🙋‍♀️
   
 ### Main Function
 >  **🏘 부동산 매물 검색**  
@@ -1266,4 +1270,13 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 | Cloud Server | <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">     |
 | Modeling |   <img src="https://img.shields.io/badge/da%23-84A454?style=for-the-badge&logo=&logoColor=black" alt="da#">  |
 
+## Feedback 
+| 조원명 | REIVIEW |
+| --- | --- |
+| 김기홍 |내용 삽입|
+| 김태환 |내용 삽입|
+| 부재녕 |내용 삽입|
+| 이기연 |내용 삽입|
+| 이채은 |내용 삽입|
+| 최지혜 |내용 삽입|
 
