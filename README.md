@@ -28,7 +28,7 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 
 
 
-## 👯‍♀️팀원 소개
+## 👯‍♀️ 팀원 소개
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/0abc9fa9-085e-488e-8691-ef8215d2c479" width="800">
