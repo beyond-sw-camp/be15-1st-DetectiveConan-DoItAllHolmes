@@ -3,16 +3,16 @@
 ---
 
 ## 목차
-1. [프로젝트 기획서](#Project Proposal)
-2. [프로젝트 세부 사항](#Project Detail)
-3. [기술 스택](#Tech Stacks)
+1. [프로젝트 기획서](#Project-Proposal)
+2. [프로젝트 세부 사항](#Project-Detail)
+3. [기술 스택](##Tech-Stacks)
 4. [WBS](#WBS)
 5. [모델링](#Modeling)
-6. [테스트케이스 및 쿼리](#TestCase and Query)
+6. [테스트케이스 및 쿼리](#TestCase-and-Query)
 7. [동료평가](#Feedback)
 
 ---
-## Project Proposal
+## Project-Proposal
 ### Do It All, Holmes!
 > ## 목표
 > ---
@@ -51,7 +51,7 @@
 > >> **💡집에 대한 고민이 있는 사람들에게 커뮤니티를 제공하여 정보를 공유할 수 있게 해준다.**
 
 
-## Project Detail
+## Project-Detail
 
 ### Target Customer
 >
@@ -79,24 +79,25 @@
 >> ![요구사항명세서2](./images/requirement2.png)
 >> ![요구사항명세서3](./images/requirement3.png)
 
-## Tech Stacks
+## Tech-Stacks
 | Category | Tools/Technologies |  
 |----------|-------------------|
 | Database |<img src = "https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" >|
 | VCS      |<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
+## TestCase-and-Query
 <details>
-<summary> **회원**</summary>
+<summary> 👩회원</summary>
 <div markdown="1">
 </div>
 
 <details>
-<summary>로그인</summary>
+<summary> 로그인</summary>
 <div markdown="1">
 
 </div>
 </details>
----
+
 <details>
 <summary>회원가입</summary>
 <div markdown="1">
@@ -180,7 +181,7 @@
 </details>
 
 <details>
-<summary> 부동산</summary>
+<summary> 🏠부동산</summary>
 <div markdown="1">
 </div>
 
@@ -337,7 +338,7 @@
 </details>
 
 <details>
-<summary> 인테리어</summary>
+<summary> 🛋️인테리어</summary>
 <div markdown="1">
 </div>
 
@@ -492,7 +493,7 @@
 </details>
 
 <details>
-<summary> 이사</summary>
+<summary> 🧞이사</summary>
 <div markdown="1">
 </div>
 
@@ -650,7 +651,7 @@
 
 
 <details>
-<summary> 커뮤니티</summary>
+<summary> 💬커뮤니티</summary>
 <div markdown="1">
 </div>
 
@@ -743,7 +744,7 @@
 </details>
 
 <details>
-<summary> 설문</summary>
+<summary> 📝설문</summary>
 <div markdown="1">
 </div>
 
@@ -841,7 +842,7 @@
 </details>
 
 <details>
-<summary> 매칭</summary>
+<summary> 😍매칭</summary>
 <div markdown="1">
 </div>
 
@@ -875,7 +876,7 @@
 </details>
 
 <details>
-<summary> 관리자</summary>
+<summary> 👨‍💼관리자</summary>
 <div markdown="1">
 </div>
 
@@ -998,7 +999,7 @@
 </details>
 </details>
 <details>
-<summary> 이용 후기</summary>
+<summary> ⌨️이용 후기</summary>
 <div markdown="1">
 </div>
 
@@ -1055,7 +1056,7 @@
 </details>
 
 <details>
-<summary> 댓글</summary>
+<summary> 🖥️댓글</summary>
 <div markdown="1">
 </div>
 
