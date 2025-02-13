@@ -91,13 +91,14 @@
 ## TestCase-and-Query
 <details>
 <summary>테스트 케이스</summary>
-<div markdown="1">
-![테스트케이스](./images/image1.png)     
-![테스트케이스](./images/image2.png)   
-![테스트케이스](./images/image3.png)    
-![테스트케이스](./images/image4.png)    
-![테스트케이스](./images/image5.png)    
-</div>
+
+ ![테스트케이스](./images/image1.png)
+ ![테스트케이스](./images/image2.png)
+ ![테스트케이스](./images/image3.png)
+ ![테스트케이스](./images/image4.png)
+ ![테스트케이스](./images/image5.png)
+ 
+
 </details>
 
 <details>
