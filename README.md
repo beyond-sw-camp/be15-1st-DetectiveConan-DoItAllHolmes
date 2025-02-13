@@ -5,7 +5,7 @@
 ## 목차
 1. [프로젝트 기획서](#Project-Proposal)
 2. [프로젝트 세부 사항](#Project-Detail)
-3. [기술 스택](##Tech-Stacks)
+3. [기술 스택](#Tech-Stacks)
 4. [WBS](#WBS)
 5. [모델링](#Modeling)
 6. [테스트케이스 및 쿼리](#TestCase-and-Query)
@@ -78,6 +78,13 @@
 >> ![요구사항명세서1](./images/requirement1.png)
 >> ![요구사항명세서2](./images/requirement2.png)
 >> ![요구사항명세서3](./images/requirement3.png)
+
+## Table Definition Document
+![image](https://github.com/user-attachments/assets/eea896ca-b5fe-440d-bc77-dab3d527ed1a)
+![image](https://github.com/user-attachments/assets/787d9b1b-a94d-492a-b902-c20eb9d340d9)
+![image](https://github.com/user-attachments/assets/c90e41d6-47d7-45bf-be7f-1db46af04295)
+![image](https://github.com/user-attachments/assets/bfd06a7d-6cf5-4396-b274-2450f02a9d78)
+
 
 ## Tech-Stacks
 | Category | Tools/Technologies |  
