@@ -92,7 +92,7 @@
 </div>
 
 <details>
-<summary> 로그인</summary>
+<summary>¹로그인</summary>
 <div markdown="1">
 
 
@@ -101,7 +101,7 @@
 </details>
 
 <details>
-<summary>회원가입</summary>
+<summary>²회원가입</summary>
 <div markdown="1">
 
  
