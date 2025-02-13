@@ -1,19 +1,28 @@
 # 다 해줘 홈즈!🕵️‍♀️ 사용자 맞춤 이사, 인테리어, 부동산 추천 시스템 🏘
+![image](https://github.com/user-attachments/assets/54785bc3-65f6-45c2-9458-b3ba2a02a990) ![image](https://github.com/user-attachments/assets/f1127a68-9c40-49f1-a730-3b2f3f49b0ee)
+
+
+### 🔍 Do It All, Holmes!
 
 ---
-
+WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!  
+논리 모델링 이미지 넣어주세요  
+물리 모델링 이미지 넣어주세요  
 ## 목차
 1. [프로젝트 기획서](#Project-Proposal)
 2. [프로젝트 세부 사항](#Project-Detail)
-3. [기술 스택](#Tech-Stacks)
-4. [WBS](#WBS)
-5. [모델링](#Modeling)
-6. [테스트케이스 및 쿼리](#TestCase-and-Query)
-7. [동료평가](#Feedback)
+3. [WBS](#WBS)
+4. [모델링](#Modeling)
+5. [유스케이스](#Usecase)
+6. [요구사항 명세서](#Software-Requirement-Specification)
+7. [테이블 정의서](#Table-Definition-Document)
+8. [테스트케이스 및 쿼리](#TestCase-and-Query)
+9. [기술 스택](#Tech-Stacks)
+10. [동료평가](#Feedback)
 
 ---
 
-### 🔍Do It All, Holmes!
+
 
 ## 👯‍♀️팀원 소개
 ![4b131354cfddad43-ezgif com-speed](https://github.com/user-attachments/assets/0abc9fa9-085e-488e-8691-ef8215d2c479)
@@ -51,7 +60,7 @@
 [**인테리어 수요 증가**](https://blog.opensurvey.co.kr/article/living-2020-2/)
 
 </details>
-
+  
 ### Project Necessity
 > **💡 한 번의 회원 가입으로 부동산 매물 검색부터 시작해, 맞춤형 인테리어 디자인과 이사 업체까지,  후기를 통해 신뢰할 수 있는 업체들과 사용자 한 명 한 명의 요구에 맞춰 최적의 선택을 가능하게 해준다.**  
 > 
@@ -61,9 +70,9 @@
 >  
 > **💡 집에 대한 고민이 있는 사람들에게 커뮤니티를 제공하여 정보를 공유할 수 있게 해준다.**    
 
-
+  
 ## Project-Detail
-
+  
 ### Target Customer
 >
 > **1️⃣ 나의 여건에 맞게 집을 구하고 싶다!**
@@ -71,9 +80,9 @@
 > **2️⃣ 내가 생각하는 조건에 맞는 인테리어를 할 수 있는 업체를 빠르게 찾고 싶다!**
 >  
 > **3️⃣ 믿을 수 있는 업체를 소개 받고 싶다!**
-
-## **➡ 위의 과정을 ONE-STEP으로 소개 받고 싶은 사람🙋‍♀️**  
-
+>
+> ## → 위의 과정을 ONE-STEP으로 소개 받고 싶은 사람🙋‍♀️
+  
 ### Main Function
 >  **🏘 부동산 매물 검색**  
 > **지역, 가격, 면적 등 사용자의 조건에 맞는 다양한 매물을 검색하고 비교 가능!**
@@ -87,8 +96,36 @@
 >  **💟 커뮤니티**   
 > **커뮤니티를 통해 누구나 자신의 방의 인테리어나 가구를 소개하는 글을 작성해 서로 소통 가능!**   
 
+
+
 ### Product
-> #### Usecase
+
+## WBS
+WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
+<details>
+<summary>WBS</summary>
+ 
+![WBS](https://github.com/user-attachments/assets/6d3eb8ed-035c-46b4-83c8-9292afe5f015)
+
+</details>
+
+## Modeling
+
+<details>
+<summary>Logical Data Modeling</summary>
+ 
+논리 모델링 이미지 넣어주세요
+
+</details>
+
+<details>
+<summary>Physical Data Modeling</summary>
+ 
+물리 모델링 이미지 넣어주세요
+
+</details>
+
+## Usecase
 <details>
 <summary>유스케이스</summary>
  
@@ -96,7 +133,7 @@
 
 </details>
 
-> #### Software Requirement Specification
+## Software-Requirement-Specification
 
 <details>
 <summary>요구사항 명세서</summary>
@@ -109,7 +146,7 @@
 
 </details>
 
-## Table Definition Document
+## Table-Definition-Document
 
 <details>
  <summary> 테이블 정의서 </summary>
@@ -121,14 +158,7 @@
 
 </details>
 
-## Tech-Stacks
 
-| Category   | Tools/Technologies |
-|------------|--------------------|
-| Database   |   <img src="https://img.shields.io/badge/mariadb-003545?style=for-the-badge&logo=mariadb&logoColor=white">          |
-| OS    |   <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">  <img src="https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=black">|
-| Cloud Server | <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">     |
-| Modeling |   <img src="https://img.shields.io/badge/da%23-84A454?style=for-the-badge&logo=&logoColor=black" alt="da#">  |
 
 ## TestCase-and-Query
 <details>
@@ -1226,3 +1256,14 @@
 </div>
 </details>
 </details>
+
+## Tech-Stacks
+
+| Category   | Tools/Technologies |
+|------------|--------------------|
+| Database   |   <img src="https://img.shields.io/badge/mariadb-003545?style=for-the-badge&logo=mariadb&logoColor=white">          |
+| OS    |   <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">  <img src="https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=black">|
+| Cloud Server | <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">     |
+| Modeling |   <img src="https://img.shields.io/badge/da%23-84A454?style=for-the-badge&logo=&logoColor=black" alt="da#">  |
+
+
