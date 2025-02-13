@@ -952,7 +952,7 @@
 <summary>¹이용 후기 작성</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/d20ebd56-54a4-4b3b-b0fa-ff4077c6ee7e)
 
 </div>
 </details>
