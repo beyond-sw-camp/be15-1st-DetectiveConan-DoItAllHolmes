@@ -97,14 +97,10 @@
 
 ## TestCase-and-Query
 <details>
-<div markdown="1">
 <summary> 📜테스트 케이스 </summary>
-> ![image](https://github.com/user-attachments/assets/e9ad4551-6286-4f92-af85-cce5cf4ded9b)
-> ![image](https://github.com/user-attachments/assets/5322f62a-e599-482c-b97e-a6a1cf53e217)
-> ![image](https://github.com/user-attachments/assets/1d353ea5-67fc-4310-b69c-f28880abfe28)
-> ![image](https://github.com/user-attachments/assets/ea06b8e0-e862-4956-9880-1f3130e94d0a)
-> ![image](https://github.com/user-attachments/assets/726c05e6-6aad-41d8-955a-a2bd2cb870f9)
- </div>
+<div markdown="1">
+
+</div>
 </details>
 
 <details>
