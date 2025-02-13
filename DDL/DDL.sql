@@ -97,7 +97,6 @@ CREATE TABLE house_survey
     floor_space    INTEGER(10) NOT NULL COMMENT '평 대',
     stairs    ENUM('저층','중층','고층') NOT NULL COMMENT '층 위치',
     bathroom    INTEGER(10) NOT NULL COMMENT '욕실 수',
-    comforts_info    TEXT(255) NOT NULL COMMENT '편의시설 정보',
     user_id    INTEGER(10) NOT NULL COMMENT '회원ID',
     room_count    INTEGER(2) NOT NULL COMMENT '방 갯수',
     deal_type VARCHAR(30) NOT NULL COMMENT '구매 타입',
@@ -134,6 +133,7 @@ CREATE TABLE apt
     portfolio_id    INTEGER(10) NOT NULL COMMENT '소개글ID',
     house_image    TEXT COMMENT '이미지 파일',
     deal_type VARCHAR(30) NOT NULL COMMENT '구매 타입',
+    comfort_info TEXT COMMENT '편의시설 정보',
  PRIMARY KEY ( portfolio_id ),
  UNIQUE (portfolio_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '집 매물';
@@ -317,23 +317,6 @@ ALTER TABLE `review_comments`
  REFERENCES `user` (`user_id` );
 
 
-CREATE TABLE comfort
-(
-    comfort_id    INTEGER(10) NOT NULL AUTO_INCREMENT COMMENT '주변시설 코드',
-    comfort_name    VARCHAR(255) NOT NULL COMMENT '주변시설 이름',
- PRIMARY KEY ( comfort_id ),
- UNIQUE (comfort_id)  -- Primary key already enforces uniqueness
-) COMMENT = '주변시설';
-
-CREATE TABLE apt_comforts
-(
-    apt_comfort_id    INTEGER(10) NOT NULL AUTO_INCREMENT COMMENT '일련번호',
-    portfolio_id    INTEGER(10) NOT NULL COMMENT '소개글ID',
-    comfort_id    INTEGER(10) NOT NULL COMMENT '주변시설 코드',
- PRIMARY KEY ( apt_comfort_id ),
- UNIQUE (apt_comfort_id)  -- Primary key already enforces uniqueness
-) COMMENT = '아파트 별 편의시설';
-
 CREATE TABLE board_like
 (
     board_like_id    INTEGER(10) NOT NULL AUTO_INCREMENT COMMENT '게시판 좋아요ID',
@@ -344,11 +327,3 @@ CREATE TABLE board_like
  PRIMARY KEY ( board_like_id ),
  UNIQUE (board_like_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '좋아요';
-
-ALTER TABLE `apt_comforts`
- ADD CONSTRAINT `apt_comforts_FK` FOREIGN KEY ( `comfort_id` )
- REFERENCES `comfort` (`comfort_id` );
-
-ALTER TABLE `apt_comforts`
- ADD CONSTRAINT `apt_comforts_FK1` FOREIGN KEY ( `portfolio_id` )
- REFERENCES `apt` (`portfolio_id` );
