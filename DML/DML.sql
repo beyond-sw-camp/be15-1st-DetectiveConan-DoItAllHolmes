@@ -15,6 +15,7 @@ VALUES
 INSERT INTO user (user_id ,user_name, user_phone, user_login_id, user_login_password, user_email, user_num, user_created_at) 
 VALUES
 (9999,'관리자', '010-6371-9689', 'admin', 'admin', 'admin@admin.com', '001111-301554', '2025-02-25 10:30:00');
+
 INSERT INTO user (user_name, user_phone, user_login_id, user_login_password, user_email, user_num, user_created_at) 
 VALUES 
 ('김철수', '010-1234-5678', 'chulsu123', 'password1!', 'chulsu@example.com', '901010-1234567', NOW()),
@@ -289,7 +290,7 @@ VALUES
 ('이사팀이 정말 신속하고 정확하게 일처리를 해주셨어요. 최고입니다!', 3, 17, NULL),
 ('부동산 상담을 통해 원하는 조건의 집을 찾을 수 있어서 너무 감사해요.', 9, 19, 'house_image2.jpg'),
 ('이사 서비스가 너무 만족스러워서 친구들에게도 추천했어요. 매우 친절했습니다.', 2, 21, NULL),
-('인테리어 상담 후, 집이 정말 새 것처럼 바뀌었어요. 너무 행복합니다!', 4, 23, 'interior_image2.jpg');
+('인테리어 상담 후, 집이 정말 새 것처럼 바뀌었어요. 너무 행복합니다', 4, 23, 'interior_image2.jpg');
 
 -- 이용 후기 댓글 review_comments **************************
 INSERT INTO review_comments (review_comments_contents, review_id, user_id)
