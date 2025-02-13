@@ -83,1108 +83,1149 @@
 | Category | Tools/Technologies |  
 |----------|-------------------|
 | Database |<img src = "https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" >|
-| VCS      |<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">|
-| Modeling |<img src="https://img.shields.io/badge/da%23-84A454?style=for-the-badge&logo=&logoColor=black" alt="da#">|
-
-
-## WBS
->> ![WBS](./images/WBS.png)
-
-
-## Modeling
-> ### Logical Modeling
->>
-> ### Physical Modeling
-
-
-## 10. 테스트 결과서(테스트 쿼리문 포함)
+| VCS      |<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 <details>
-<summary>테스트 케이스 정의서</summary>
+<summary> **회원**</summary>
 <div markdown="1">
-
-![테스트 케이스 정의서](assets/images/테스트케이스.png)
-
 </div>
-</details>
-
-### 사용자
-
-<details>
-<summary>사용자</summary>
-<div markdown="1">
-
-<details>
-<summary>회원관리</summary>
-<div markdown="1">
-<details>
-<summary>회원가입(아이디 중복 확인)</summary>
-<div markdown="1">
-
-![회원가입(아이디 중복 확인)](assets/images/회원가입.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>회원정보조회_아이디</summary>
-<div markdown="1">
-
-![회원정보조회_아이디](assets/images/회원정보조회_아이디.png)
-
-</div>
-</details>
-
-###
-
-
-<details>
-<summary>회원정보조회_성별</summary>
-<div markdown="1">
-
-![회원정보조회_성별](assets/images/회원정보조회_성별.png)
-
-</div>
-</details>
-
-###
-
-
-<details>
-<summary>관리자 등록 변경</summary>
-<div markdown="1">
-
-![관리자등록변경](assets/images/관리자_등록_변경.png)
-
-</div>
-</details>
-
-
-###
-
-
-
-<details>
-<summary>회원 정보 변경</summary>
-<div markdown="1">
-
-![회원정보변경](assets/images/회원_정보_변경_비번.png)
-
-</div>
-</details>
-
-###
-
-
-
-<details>
-<summary>회원 탈퇴</summary>
-<div markdown="1">
-
-![회원탈퇴](assets/images/회원탈퇴.png)
-
-</div>
-</details>
-
-
-###
-
-
-<details>
-<summary>회원 공개 정보 변경</summary>
-<div markdown="1">
-
-![회원공개정보변경](assets/images/회원공개정보변경.png)
-
-</div>
-</details>
-
-</div>
-</details>
-
-
-
-
-
 
 <details>
 <summary>로그인</summary>
 <div markdown="1">
 
-
+</div>
+</details>
+---
 <details>
-<summary>아이디 정보 조회(디비에 있는 경우)</summary>
+<summary>회원가입</summary>
 <div markdown="1">
 
-![아이디정보조회_있는경우](assets/images/아이디정보조회_있는경우.png)
+ 
 
 </div>
 </details>
 
-###
+<details>
+<summary>회원 정보 수정</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>회원정보찾기</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>회원신고</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>내가 쓴 이용후기 모아보기</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>즐겨찾기 모아보기</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>회원탈퇴</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>상담 신청 목록 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>상담 신청 내용 상세 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+</details>
+
+<details>
+<summary> 부동산</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>부동산 업체 정보 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>부동산 업체 정보 수정</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>부동산 업체 정보 삭제</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/1686772c-0045-445b-9045-38ea832766e4)
+![image](https://github.com/user-attachments/assets/145f64d8-9d8c-49a2-b30f-afdfcbe35eba)
+
+
+</div>
+</details>
+
+<details>
+<summary>부동산 업체 정보 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/5784f9b9-bf4b-4b10-89e9-3368dbd03e63)
+
+
+</div>
+</details>
+
+<details>
+<summary>부동산 매물 글 작성</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/d9ddc036-877c-4c82-99a4-f9cc9a11495e)
+
+
+</div>
+</details>
+
+<details>
+<summary>부동산 매물 글 수정</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/25c7a12f-a10f-4354-afb2-16ba3161e964)
+ ![image](https://github.com/user-attachments/assets/c42e20e7-337a-4ac4-be72-05bd1b168490)
+
+
+</div>
+</details>
+
+<details>
+<summary>부동산 매물 글 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/fd5f2d51-a587-44ed-bb3d-3c5cd3a0f3ca)
+
+
+</div>
+</details>
+
+<details>
+<summary>부동산 매물 글 삭제</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/ff7d0185-16c3-4397-9b22-cb37c54972a2)
+ ![image](https://github.com/user-attachments/assets/df35d5bd-9bce-44f6-971b-afa304108d53)
+
+
+</div>
+</details>
+
+<details>
+<summary>부동산 상담 신청 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/8606b1cf-3a6c-4b68-8743-4644b22cd0bd)
+
+
+</div>
+</details>
+
+<details>
+<summary>부동산 상담 신청 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>부동산 상담 신청 취소</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/df6f1e5c-a0d9-4a11-8f54-e96926098025)
+
+
+</div>
+</details>
+
+<details>
+<summary>부동산 즐겨찾기 기능</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/c03a9983-f31b-4481-94f7-8cc950d55089)
+
+
+</div>
+</details>
+
+<details>
+<summary>부동산 즐겨찾기기 취소</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/0f78660d-efca-47f4-87ca-32dc3f36265a)
+ ![image](https://github.com/user-attachments/assets/ad4bc8ab-e99c-44bf-af22-86346e30c347)
+
+
+</div>
+</details>
+
+<details>
+<summary>부동산 작업 단계 수정</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/8d019714-267f-4fc2-98b3-629844d86128)
+ ![image](https://github.com/user-attachments/assets/df815840-4d3d-45d1-800a-78262cbc0614)
+
+
+</div>
+</details>
+
+<details>
+<summary>부동산 작업 단계 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+</details>
+
+<details>
+<summary> 인테리어</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>인테리어 업체 정보 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 업체 정보 수정</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 업체 정보 삭제</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/c3af70ae-4f77-4740-a9f6-9f2190c5237f)
+
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 업체 정보 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/10416c7d-d12a-4e7e-91ff-51471b3166f2)
+
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 상담 신청 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/4fa34bcd-2d1e-4316-92ab-3bc6b94f4fb8)
+
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 상담 신청 작성</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/16dc4576-ba93-4f8a-9daa-2bc0e033088c)
+
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 상담 신청 취소</summary>
+<div markdown="1">
+
+![image](https://github.com/user-attachments/assets/ed67f352-98f0-4efe-8d39-5b1493b86318)
+
+
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 업체 즐겨찾기 기능</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/fa3da8c3-601f-4242-902d-ac2b192db3b5)
+
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 업체 즐겨찾기 취소</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/8aae1015-456a-45dd-86e4-8758d6f5641c)
+
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 작업 단계 수정</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/3129df90-5e19-4363-8391-4949563e6598)
+
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 작업 단계 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/2f30e888-91b7-4bbd-a9a7-9775dbadb59c)
+
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 게시글 작성</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/48e557d4-f059-40c4-99cf-f00944be2277)
+
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 게시글 수정</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/689cb9e0-c3b4-49de-ad7d-183a32f6bced)
+
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 게시글 삭제</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/8b9a8e3d-bacb-4ac5-88a0-c06339dc7e71)
+
+
+</div>
+</details>
+
+<details>
+<summary>인테리어 게시글 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/c840e6d2-78fe-4c88-a630-f38938cf4038)
+
+
+</div>
+</details>
+</details>
+
+<details>
+<summary> 이사</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>이사 업체 정보 작성</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/700962bf-8ca6-483a-9426-b091484f1e6f)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 정보 수정</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/a9962b2a-f7c4-488a-acef-f6b81d7935d2)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 정보 삭제</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/9fc2aff8-f070-4bfa-8c2b-e2ab0acdbd86)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 정보 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/df878800-f8a7-4cf8-b35f-2547e7d9c9aa)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 상담 신청 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/d2dfa6c0-c04d-436c-a79b-d7eb612527c5)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 상담 신청 작성</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/2619f775-a34a-46de-a4be-1b7cdb90af9b)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 상담 신청 취소</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/a728d0fa-448e-4761-b977-0762c746f471)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 즐겨찾기 기능</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/1ee25f63-3907-4665-9ccf-f5cc831e1186)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 즐겨찾기 취소</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/550aa413-51be-4b75-92ab-64c72f2fe00f)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 작업 단계 수정</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/6ed36a64-30cf-4c06-8e6d-7f33ab0d5d90)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 작업 단계 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/36df0dd0-907e-4f00-9a22-bdd5d7bc4b55)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 게시글 작성</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/a4ebe0d1-ba30-4e6d-b85b-48fe2ef3b1e4)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 게시글 수정</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/5901f87c-ebb9-4ca0-bc1b-0283ed515413)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 게시글 삭제</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/01d226a5-7441-4439-806c-65b2dd1d45e2)
+
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 게시글 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/e59e5875-e01a-4afa-a5db-d101ec42d03d)
+
+
+</div>
+</details>
+</details>
 
 
 
 <details>
-<summary>아이디 정보 조회(디비에 없는 경우)</summary>
+<summary> 커뮤니티</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>게시글 조회</summary>
 <div markdown="1">
 
-![아이디정보조회_없는경우](assets/images/아이디정보조회_없는경우.png)
+ ![image](https://github.com/user-attachments/assets/6c4519c8-d761-4472-bb45-c814b501015d)
+
 
 </div>
 </details>
 
+<details>
+<summary>게시글 상세 조회</summary>
+<div markdown="1">
 
-###
+ ![image](https://github.com/user-attachments/assets/bd598f91-92da-48da-868b-8f1d2c98c6cc)
+
+
+</div>
+</details>
 
 
 <details>
-<summary>비밀번호 교체 주기 확인</summary>
+<summary>게시글 작성</summary>
 <div markdown="1">
 
-![비밀번호교체주기](assets/images/비밀번호교체주기.png)
-
-</div>
-</details>
-
-</div>
-</details>
-
-</div>
-</details>
-
-### 취향
-
-<details>
-<summary>취향</summary>
-<div markdown="1">
-
-
-<details>
-<summary>사용자 취향 호출</summary>
-<div markdown="1">
-
-![사용자 취향 호출](assets/images/사용자취향호출.PNG)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>사용자 취향 저장</summary>
-<div markdown="1">
-
-![사용자 취향 저장](assets/images/사용자취향저장.PNG)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>사용자 취향 삭제</summary>
-<div markdown="1">
-
-![사용자 취향 삭제](assets/images/사용자취향삭제.PNG)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>사용자 취향 수정</summary>
-<div markdown="1">
-
-![사용자 취향 수정](assets/images/사용자취향수정.PNG)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>게시글 취향 호출</summary>
-<div markdown="1">
-
-![게시글 취향 호출](assets/images/게시글취향호출.PNG)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>게시글 취향 저장</summary>
-<div markdown="1">
-
-![게시글 취향 저장](assets/images/게시글취향저장.PNG)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>게시글 취향 삭제</summary>
-<div markdown="1">
-
-![게시글 취향 삭제](assets/images/게시글취향삭제.PNG)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>게시글 취향 수정</summary>
-<div markdown="1">
-
-![게시글 취향 수정](assets/images/게시글취향수정.PNG)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 코스 취향 호출</summary>
-<div markdown="1">
-
-![여행 코스 취향 호출](assets/images/여행코스취향호출.PNG)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 코스 취향 저장</summary>
-<div markdown="1">
-
-![여행 코스 취향 저장](assets/images/여행코스취향저장.PNG)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 코스 취향 삭제</summary>
-<div markdown="1">
-
-![여행 코스 취향 삭제](assets/images/여행코스취향삭제.PNG)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 코스 취향 수정</summary>
-<div markdown="1">
-
-![여행 코스 취향 수정](assets/images/여행코스취향수정.PNG)
-
-</div>
-</details>
-
+ ![image](https://github.com/user-attachments/assets/5bcffad0-c6dd-45cd-8040-5f2e990442ea)
 
 
 </div>
 </details>
-
-
-
-### 게시판
-
-<details>
-<summary>게시판</summary>
-<div markdown="1">
-
-<details>
-<summary>게시글 등록</summary>
-<div markdown="1">
-
-![게시글 등록](assets/images/게시글등록.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>게시글 임시 저장</summary>
-<div markdown="1">
-
-![게시글 임시저장](assets/images/게시글임시저장.png)
-
-</div>
-</details>
-
-###
 
 <details>
 <summary>게시글 수정</summary>
 <div markdown="1">
 
-![게시글 수정](assets/images/게시글수정.png)
+ ![image](https://github.com/user-attachments/assets/6cc52218-5004-4ab8-a85a-e64a90bae380)
+
 
 </div>
 </details>
-
-###
 
 <details>
 <summary>게시글 삭제</summary>
 <div markdown="1">
 
-![게시글 삭제](assets/images/게시글삭제.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>게시글 조회-작성일자 기준</summary>
-<div markdown="1">
-
-![게시글 조회-작성자 기준](assets/images/게시글조회(작성일자기준).png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>게시글 조회-조회수 정렬</summary>
-<div markdown="1">
-
-![게시글 조회-조회수 높은순](assets/images/게시글조회(조회수높은순).png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>게시글 상세조회</summary>
-<div markdown="1">
-
-![게시글 상세조회](assets/images/게시글상세조회.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>별점 등록</summary>
-<div markdown="1">
-
-![별점 등록](assets/images/별점등록.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>별점 수정</summary>
-<div markdown="1">
-
-![별점 수정](assets/images/별점수정.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>별점 삭제</summary>
-<div markdown="1">
-
-![별점 삭제](assets/images/별점삭제.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>댓글 등록</summary>
-<div markdown="1">
-
-![댓글 등록](assets/images/댓글등록.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>댓글 수정</summary>
-<div markdown="1">
-
-![댓글 수정](assets/images/댓글수정.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>댓글 삭제</summary>
-<div markdown="1">
-
-![댓글 삭제](assets/images/댓글삭제.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>댓글 조회</summary>
-<div markdown="1">
-
-![댓글 조회](assets/images/댓글조회.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>댓글 좋아요 등록</summary>
-<div markdown="1">
-
-![댓글 좋아요 등록](assets/images/댓글좋아요등록.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>댓글 좋아요 삭제</summary>
-<div markdown="1">
-
-![댓글 좋아요 삭제](assets/images/댓글좋아요삭제.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>게시글 작성자 프로필 조회</summary>
-<div markdown="1">
-
-![게시글 작성자 프로필 조회](assets/images/게시글작성자프로필조회.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>댓글 작성자 프로필 조회</summary>
-<div markdown="1">
-
-![댓글 작성자 프로필 조회](assets/images/댓글작성자프로필조회.png)
-
-</div>
-</details>
-
-</div>
-</details>
-
-
-
-### 여행 코스
-
-<details>
-<summary>여행 코스</summary>
-<div markdown="1">
-
-
-
-<details>
-<summary>나라 등록</summary>
-<div markdown="1">
-
-![나라 등록](assets/images/나라등록.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>나라 수정</summary>
-<div markdown="1">
-
-![나라 수정](assets/images/나라수정.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>나라 삭제</summary>
-<div markdown="1">
-
-![나라 삭제](assets/images/나라삭제.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>도시 등록</summary>
-<div markdown="1">
-
-![도시 등록](assets/images/도시등록.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>도시 수정</summary>
-<div markdown="1">
-
-![도시 수정](assets/images/도시수정.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>도시 삭제</summary>
-<div markdown="1">
-
-![도시 삭제](assets/images/도시삭제.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>코스 등록</summary>
-<div markdown="1">
-
-![코스 등록1](assets/images/코스등록1.png)
-![코스 등록2](assets/images/코스등록2.png)
+ ![image](https://github.com/user-attachments/assets/a303a507-1437-4194-b19f-53ba4a037f6f)
 
 
 </div>
 </details>
 
-###
-
 <details>
-<summary>코스 수정</summary>
+<summary>게시글 좋아요</summary>
 <div markdown="1">
 
-![코스 수정1](assets/images/코스수정1.png)
-![코스 수정2](assets/images/코스수정2.png)
+ 
+
+</div>
+</details>
+
+<details>
+<summary>게시글 좋아요 취소</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>게시글 좋아요 개수</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>공지사항 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+</details>
+
+<details>
+<summary> 설문</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>매물 설문지 작성</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/37c89db7-2008-48f1-a332-a6ca6d9284ca)
 
 
 </div>
 </details>
 
-###
-
 <details>
-<summary>코스 삭제</summary>
+<summary>매물 설문지 수정</summary>
 <div markdown="1">
 
-![코스 삭제](assets/images/코스삭제1.png)
+ ![image](https://github.com/user-attachments/assets/be54d8c3-28e5-4517-b9e6-c15bc93581a9)
 
 
 </div>
 </details>
 
-###
-
 <details>
-<summary>코스 전체 조회 & 검색</summary>
+<summary>매물 설문지 조회</summary>
 <div markdown="1">
 
-![코스 전체 조회1](assets/images/코스전체조회1.png)
-![코스 전체 조회2](assets/images/코스전체조회2.png)
+![image](https://github.com/user-attachments/assets/21ffd527-00a3-46e2-9250-a731dc855f45)
+ 
+
+</div>
+</details>
+
+<details>
+<summary>이사 업체 설문지 작성</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/8431c337-dbd6-4b5e-8343-551c954d6c1e)
 
 
 </div>
 </details>
 
-###
-
 <details>
-<summary>코스 상세 조회</summary>
+<summary>이사 업체 설문지 수정</summary>
 <div markdown="1">
 
-![코스 상세 조회](assets/images/코스상세조회.png)
+![image](https://github.com/user-attachments/assets/c2a8ccc8-c943-41f4-8c3e-12d81a766fd4)
 
 
 </div>
 </details>
 
-###
-
 <details>
-<summary>여행 동행 모집 등록</summary>
+<summary>이사 업체 설문지 조회</summary>
 <div markdown="1">
 
-![여행 동행 모집 등록](assets/images/여행동행모집등록.png)
+ ![image](https://github.com/user-attachments/assets/1af3486f-525d-44a0-8672-fb99c1b48901)
 
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 동행 모집 수정</summary>
-<div markdown="1">
-
-![여행 동행 모집 수정](assets/images/여행동행모집수정.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 동행 모집 삭제</summary>
-<div markdown="1">
-
-![여행 동행 모집 삭제](assets/images/여행동행모집삭제.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 동행 모집 상태 설정</summary>
-<div markdown="1">
-
-![여행 동행 모집 상태 설정](assets/images/여행동행모집상태설정.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 동행 모집 전체 조회 & 검색</summary>
-<div markdown="1">
-
-![여행 동행 모집 전체 조회1](assets/images/여행동행모집전체조회1.png)
-![여행 동행 모집 전체 조회2](assets/images/여행동행모집전체조회2.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 동행 모집 상세 조회</summary>
-<div markdown="1">
-
-![여행 동행 모집 상세 조회](assets/images/여행동행모집상세조회.png)
 
 </div>
 </details>
 
 
-###
-
 <details>
-<summary>여행 동행 모집 참가 신청</summary>
+<summary>인테리어 설문지 작성</summary>
 <div markdown="1">
 
-![여행 동행 모집 참가 신청](assets/images/여행동행모집참가신청.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 동행 모집 참가 신청 관리</summary>
-<div markdown="1">
-
-![여행 동행 모집 참가 신청 관리1](assets/images/여행동행모집참가신청관리1.png)
-![여행 동행 모집 참가 신청 관리2](assets/images/여행동행모집참가신청관리2.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 동행 모집 강퇴</summary>
-<div markdown="1">
-
-![여행 동행 모집 강퇴](assets/images/여행동행모집강퇴.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 동행 모집 나가기</summary>
-<div markdown="1">
-
-![여행 동행 모집 나가기](assets/images/여행동행모집나가기.png)
-
-</div>
-</details>
-
-</div>
-</details>
-
-
-### 신고
-
-<details>
-<summary>신고</summary>
-<div markdown="1">
-
-
-<details>
-<summary>여행 후기 신고</summary>
-<div markdown="1">
-
-![여행 후기 신고](assets/images/여행후기신고.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 후기 신고 승인</summary>
-<div markdown="1">
-
-![여행 후기 신고 승인](assets/images/여행후기신고승인.png)
-
-</div>
-</details>
-
-
-###
-
-<details>
-<summary>여행 후기 신고 반려</summary>
-<div markdown="1">
-
-![여행 후기 신고 반려](assets/images/여행후기신고반려.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 후기 댓글 신고 </summary>
-<div markdown="1">
-
-![여행 후기 댓글 신고](assets/images/여행후기댓글신고.png)
-
-</div>
-</details>
-
-
-###
-
-<details>
-<summary>여행 후기 댓글 신고 승인 </summary>
-<div markdown="1">
-
-![여행 후기 댓글 신고 승인](assets/images/여행후기댓글신고승인.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 후기 댓글 신고 </summary>
-<div markdown="1">
-
-![여행 후기 댓글 신고 반려](assets/images/여행후기댓글신고반려.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 코스 신고 </summary>
-<div markdown="1">
-
-![여행 코스 신고](assets/images/여행코스신고.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 코스 신고 승인 </summary>
-<div markdown="1">
-
-![여행 코스 신고 승인](assets/images/코스신고승인.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 코스 신고 반려 </summary>
-<div markdown="1">
-
-![여행 코스 신고 반려](assets/images/코스신고반려.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 동행 신고 </summary>
-<div markdown="1">
-
-![여행 동행 신고](assets/images/여행동행신고.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 동행 신고 승인 </summary>
-<div markdown="1">
-
-![여행 동행 신고 승인](assets/images/동행신고승인.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>여행 동행 신고 반려 </summary>
-<div markdown="1">
-
-![여행 동행 신고 반려](assets/images/동행신고반려.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>신고 내역 조회 </summary>
-<div markdown="1">
-
-![신고 내역 조회](assets/images/신고내역조회.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>신고 내역 상세 조회-후기</summary>
-<div markdown="1">
-
-![신고 내역 상세 조회-후기](assets/images/신고내역상세조회_후기.png)
-
-</div>
-</details>
-
-
-###
-
-<details>
-<summary>신고 내역 상세 조회-댓글</summary>
-<div markdown="1">
-
-![신고 내역 상세 조회-댓글](assets/images/신고내역상세조회_댓글.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>신고 내역 상세 조회-코스</summary>
-<div markdown="1">
-
-![신고 내역 상세 조회-코스](assets/images/신고내역상세조회_코스.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>신고 내역 상세 조회-동행</summary>
-<div markdown="1">
-
-![신고 내역 상세 조회-동행](assets/images/신고내역상세조회_동행.png)
-
-</div>
-</details>
-
-###
-
-<details>
-<summary>정지 이력 기록</summary>
-<div markdown="1">
-
-![정지 이력 기록](assets/images/정지이력기록.png)
-
-</div>
-</details>
-
+ ![image](https://github.com/user-attachments/assets/a560e394-190c-42d5-a3b5-a79adbb5f441)
 
 
 </div>
 </details>
 
-### 알림
-
-
 <details>
-<summary>알림</summary>
+<summary>인테리어 설문지 수정</summary>
 <div markdown="1">
 
-<details>
-<summary>알림 템플릿 등록</summary>
-<div markdown="1">
+ ![image](https://github.com/user-attachments/assets/c088cb5f-3404-4352-878f-aaf7803c57e3)
 
-![알림 템플릿 등록](assets/images/alarm_insert.png)
 
 </div>
 </details>
 
-###
-
 <details>
-<summary>알림 템플릿 수정</summary>
+<summary>인테리어 설문지 조회</summary>
 <div markdown="1">
 
-![알림 템플릿 수정](assets/images/alarm_update.png)
+ ![image](https://github.com/user-attachments/assets/3730d198-83e0-41da-b8d1-f4affa741d73)
+
 
 </div>
 </details>
 
-###
+</details>
 
 <details>
-<summary>알림 템플릿 삭제</summary>
+<summary> 매칭</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>매물 매칭</summary>
 <div markdown="1">
 
-![알림 템플릿 삭제](assets/images/alarm_delete.png)
+ 
 
 </div>
 </details>
 
-###
-
 <details>
-<summary>알림 템플릿 조회</summary>
+<summary>이사 업체 매칭</summary>
 <div markdown="1">
 
-![알림 템플릿 조회](assets/images/alarm_select.png)
+ 
 
 </div>
 </details>
 
-###
-
 <details>
-<summary>알림 템플릿 상세조회</summary>
+<summary>인테리어 업체 매칭</summary>
 <div markdown="1">
 
-![알림 템플릿 상세조회](assets/images/alarm_detail_select.png)
+ 
 
 </div>
 </details>
 
-###
+</details>
 
 <details>
-<summary>댓글 작성 알림 발송</summary>
+<summary> 관리자</summary>
 <div markdown="1">
-
-![댓글 작성 알림 발송](assets/images/리뷰%20댓글%20작성%20시%20리뷰%20작성자에게%20알림%20발송.png)
-
 </div>
-</details> 
-
-###
 
 <details>
-<summary>별점 알림 발송</summary>
+<summary>회원 정보 조회</summary>
 <div markdown="1">
 
-![별점 알림 발송](assets/images/리뷰%20별점%20시%20리뷰%20작성자에게%20알림%20발송.png)
-
-</div>
-</details> 
-
-###
-
-<details>
-<summary>동행참가 알림 발송</summary>
-<div markdown="1">
-
-![동행참가 알림 발송](assets/images/동행%20참가%20요청%20시%20동행%20모집자에게%20알림%20발송.png)
-
-</div>
-</details> 
-
-###
-
-<details>
-<summary>신고 승인 시 알림발송</summary>
-<div markdown="1">
-
-![신고 승인 시 알림발송](assets/images/신고%20상태%20accept%20시%20신고자,%20신고당한%20자%20모두에게%20알림발송.png)
-
-</div>
-</details> 
-
-###
-
-<details>
-<summary>동행 참가여부에 따른 알림발송</summary>
-<div markdown="1">
-
-![동행 참가여부에 따른 알림발송](assets/images/여행%20동행자%20참가%20여부에%20따른%20동행%20신청자에게%20알림%20발송.png)
-
-</div>
-</details> 
+ 
 
 </div>
 </details>
 
-<br>
+<details>
+<summary>회원 정보 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>사업자 인증 확인</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>사업자 정보 조회</summary>
+<div markdown="1">
+
+ 
+</div>
+</details>
+
+<details>
+<summary>사업자 정보 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>회원 차단</summary>
+<div markdown="1">
+
+![image](https://github.com/user-attachments/assets/5f6d7899-a46a-41f7-b90b-a81e667136be)
+ 
+
+</div>
+</details>
+
+<details>
+<summary>게시글 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>공지사항 작성</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/3ee80d6c-63f4-406b-b9dc-d7febdcf2a64)
+
+
+</div>
+</details>
+
+<details>
+<summary>공지사항 수정</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/7da2d454-e544-4d27-8f20-711469707125)
+
+
+</div>
+</details>
+
+<details>
+<summary>공지사항 삭제</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/2576d623-7a3f-488b-b08b-dd5407f25aa0)
+
+
+</div>
+</details>
+
+<details>
+<summary>통계데이터 조회</summary>
+<div markdown="1">
+
+![image](https://github.com/user-attachments/assets/e6990f8a-359f-4afe-a7b8-2a4fe4474394)
+![image](https://github.com/user-attachments/assets/4b163807-e483-4034-94b4-6b5d9e8f8e96)
+![image](https://github.com/user-attachments/assets/9813a5c1-284c-4386-93fc-03f723232a14)
+![image](https://github.com/user-attachments/assets/84ed2927-1a7c-462e-b5ed-d6c80e250389)
+![image](https://github.com/user-attachments/assets/e47efb29-d5eb-45cc-b42c-42dd5eaa1efe)
+![image](https://github.com/user-attachments/assets/9b65bf34-268b-4e8d-b0c0-1fe08b679390)
+
+
+</div>
+</details>
+
+<details>
+<summary>작업 단계 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/c3630d44-6f8f-457c-bae9-01f66ea31d4e)
+
+
+</div>
+</details>
+</details>
+<details>
+<summary> 이용 후기</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>이용 후기 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>이용 후기 수정</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/d6b3cfb2-6ef7-49ad-9b54-7a86a7292283)
+
+
+</div>
+</details>
+
+<details>
+<summary>이용 후기 삭제</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/22e07331-4165-48f1-985a-f56512614216)
+ ![image](https://github.com/user-attachments/assets/cfdf13e5-3475-4c8f-a1ef-f2e916ae34b2)
+
+ 
+</div>
+</details>
+
+<details>
+<summary>이용 후기 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/c527d163-43f3-461d-862d-ceae14cc0b00)
+
+
+</div>
+</details>
+
+<details>
+<summary>특정 이용 후기 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/5ac5ff1e-7b33-4809-b9f1-0810de7e0d8a)
+
+
+</div>
+</details>
+
+</details>
+
+<details>
+<summary> 댓글</summary>
+<div markdown="1">
+</div>
+
+<details>
+<summary>업체 이용후기 댓글 작성</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/4eec621a-0fd2-490e-85bc-a15394ea7e44)
+
+
+</div>
+</details>
+
+<details>
+<summary>업체 이용후기 댓글 수정</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/a48af61c-9d7c-4689-913d-f4cfac31b8ef)
+ ![image](https://github.com/user-attachments/assets/e0f6f51e-ec79-4a30-beb5-814ed5b948ac)
+
+
+</div>
+</details>
+
+<details>
+<summary>업체 이용후기 댓글 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>업체 이용후기 댓글 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/321ba4a5-b0d9-445d-ab9a-dcc5624fc5ea)
+
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 댓글 작성</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/c9b98c0f-b199-4982-b8c6-6b5f8df745ee)
+
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 댓글 수정</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/d5f4570b-85ee-4e9b-a521-304fb64cb1c0)
+
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 댓글 삭제</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/cdc52592-1129-45d3-ab83-47911202cbcc)
+
+
+</div>
+</details>
+<details>
+<summary>커뮤니티 게시글 댓글 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/77627898-790b-40c0-bfb6-c303e65058f2)
+
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 댓글 좋아요</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 댓글 좋아요 취소</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 댓글 좋아요 합계</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 작성</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 조회</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 수정</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 삭제</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 좋아요</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 좋아요 취소</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+<details>
+<summary>커뮤니티 게시글 대댓글 합계</summary>
+<div markdown="1">
+
+ 
+
+</div>
+</details>
+
+</details>
