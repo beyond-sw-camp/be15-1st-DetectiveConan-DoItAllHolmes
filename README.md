@@ -842,7 +842,7 @@
 <summary>²회원 정보 삭제</summary>
 <div markdown="1">
 
- ![image](https://github.com/user-attachments/assets/8e21b572-2a6c-441b-9e6a-db536255e2f0)
+ ![image](https://github.com/user-attachments/assets/81420ea9-6dda-4ac2-b9ed-b808a083b1ee)
 
 </div>
 </details>
