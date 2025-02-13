@@ -75,9 +75,12 @@
 >> ![유스케이스](./images/usecase.png)
 
 > #### Software Requirement Specification
->> ![요구사항명세서1](./images/requirement1.png)
->> ![요구사항명세서2](./images/requirement2.png)
->> ![요구사항명세서3](./images/requirement3.png)
+>> ![image](https://github.com/user-attachments/assets/8f17ed82-ecb8-49bf-b74f-0f3e947739c2)
+
+>> ![image](https://github.com/user-attachments/assets/04393ec0-ee30-4140-a76b-f58ff63b8fbe)
+
+>> ![image](https://github.com/user-attachments/assets/80b5607f-a131-471e-9536-4ff4070f8935)
+
 
 ## Table Definition Document
 ![image](https://github.com/user-attachments/assets/eea896ca-b5fe-440d-bc77-dab3d527ed1a)
@@ -93,6 +96,14 @@
 | VCS      |<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 ## TestCase-and-Query
+<details>
+<summary>테스트 케이스</summary>
+<div markdown="1">
+
+
+</div>
+</details>
+
 <details>
 <summary> 👩회원</summary>
 <div markdown="1">
