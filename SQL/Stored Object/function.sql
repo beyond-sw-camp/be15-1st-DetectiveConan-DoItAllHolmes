@@ -1,32 +1,4 @@
 -- function
--- 후기(review)의 평균 길이 계산 - 함수
-DELIMITER $$
-
-CREATE FUNCTION GetAverageReviewLength() RETURNS DECIMAL(10,2)
-DETERMINISTIC
-BEGIN
-    DECLARE avg_length DECIMAL(10,2);
-    SELECT AVG(CHAR_LENGTH(review_contents)) INTO avg_length FROM review;
-    RETURN avg_length;
-END$$
-
-DELIMITER ;
-
-
--- 특정 사용자의 후기 개수 조회 - 함수
-DELIMITER $$
-
-CREATE FUNCTION GetUserReviewCount(userId INT) RETURNS INT
-DETERMINISTIC
-BEGIN
-    DECLARE count_reviews INT;
-    SELECT COUNT(*) INTO count_reviews FROM review WHERE user_id = userId;
-    RETURN count_reviews;
-END$$
-
-DELIMITER ;
-
-
 -- 월자별 가입 사용자 수 조회 - 함수
 DELIMITER //
 
@@ -43,6 +15,14 @@ BEGIN
     RETURN user_count;
 END //
 
+DELIMITER ;
+
+SELECT 2 AS month, GetUserCountByMonth(2) AS user_count
+UNION ALL SELECT 3 AS month, GetUserCountByMonth(3) AS user_count;
+
+
+-- 월별 가입 사업자 수
+DELIMITER //
 CREATE FUNCTION GetBusinessUserCountByMonth(target_month INT)
 RETURNS INT
 DETERMINISTIC
@@ -58,3 +38,14 @@ BEGIN
 END //
 
 DELIMITER ;
+
+SELECT 2, GetBusinessUserCountByMonth(2)  AS business_user_count
+UNION ALL SELECT 3 AS month, GetBusinessUserCountByMonth(3) AS business_user_count;
+
+
+
+
+
+
+
+

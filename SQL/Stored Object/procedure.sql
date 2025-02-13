@@ -1,14 +1,16 @@
 -- Procedure
 -- 특정 사용자(user)가 작성한 모든 후기(review) 가져오기 - 프로시저
-DELIMITER $$
+DELIMITER //
 
 CREATE PROCEDURE GetUserReviews(IN userId INT)
 BEGIN
-    SELECT * FROM review WHERE user_id = userId;
-END$$
+    SELECT * FROM review WHERE counsel_id = (SELECT counsel_id FROM counsel WHERE user_id = userId);
+END //
 
 DELIMITER ;
 
+
+CALL GetUserReviews(11);
 
 -- 특정 상담(counsel) 상태 변경 - 프로시저
 DELIMITER $$
@@ -32,6 +34,10 @@ BEGIN
     ORDER BY count DESC
     LIMIT 3;
 END //
+DELIMITER ;
+
+DELIMITER //
+CALL GetTop3Favorites();
 
 -- 탑3 게시판좋아요(board_like) 조회 - 프로시저
 CREATE PROCEDURE GetTop3BoardLikes()
@@ -45,16 +51,16 @@ BEGIN
 END //
 
 DELIMITER ;
-
+CALL GetTop3BoardLikes();
 
 -- 일자별 가입 사용자 수 조회 - 프로시저
 DELIMITER //
 
-CREATE PROCEDURE GetUserCountByDate(IN target_date DATE)
+CREATE PROCEDURE GetUserCountByDate(IN target_date date)
 BEGIN
     SELECT COUNT(*) AS user_count
     FROM user
-    WHERE DATE(user_created_at) = target_date;
+    WHERE date(user_created_at) = target_date;
 END //
 
 CREATE PROCEDURE GetBusinessUserCountByDate(IN target_date DATE)
@@ -62,11 +68,10 @@ BEGIN
     SELECT COUNT(*) AS business_user_count
     FROM business_user
     JOIN user USING (user_id)
-    WHERE user.role = 'business' AND DATE(user_created_at) = target_date;
+    WHERE user.role = 'business' AND date(user_created_at) = target_date;
 END //
 
 DELIMITER ;
 
-
-
-
+CALL GetUserCountByDate('2024-02-10');
+CALL GetBusinessUserCountByDate('2024-02-10');
