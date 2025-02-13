@@ -86,7 +86,7 @@
 | VCS      |<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 <details>
-<summary> 회원</summary>
+<summary> **회원**</summary>
 <div markdown="1">
 </div>
 
@@ -94,11 +94,9 @@
 <summary>로그인</summary>
 <div markdown="1">
 
- 
-
 </div>
 </details>
-
+---
 <details>
 <summary>회원가입</summary>
 <div markdown="1">
