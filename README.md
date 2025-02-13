@@ -117,6 +117,7 @@
 <summary>³회원 정보 수정</summary>
 <div markdown="1">
 
+![image](https://github.com/user-attachments/assets/7fda30b2-8622-46ae-abcd-98796c396357)
 
  
 </div>
@@ -126,7 +127,8 @@
 <summary>⁴회원정보찾기</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/54e26e95-03c2-44a3-8eaf-8b2bc8967a07)
+
 
 </div>
 </details>
@@ -135,7 +137,8 @@
 <summary>⁵회원신고</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/f4dade90-feee-452a-aebb-cc67e5b5a572)
+
 
 </div>
 </details>
@@ -1203,7 +1206,8 @@
 <summary>¹³커뮤니티 게시글 대댓글 조회</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/f02672bb-a4f8-44f6-8320-e82dc2f5ad90)
+
 
 </div>
 </details>
@@ -1212,7 +1216,8 @@
 <summary>¹⁴커뮤니티 게시글 대댓글 수정</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/41213766-7a11-4959-b1fa-997e44e75f07)
+
 
 </div>
 </details>
