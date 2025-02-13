@@ -79,6 +79,13 @@
 >> ![요구사항명세서2](./images/requirement2.png)
 >> ![요구사항명세서3](./images/requirement3.png)
 
+## Table Definition Document
+![image](https://github.com/user-attachments/assets/eea896ca-b5fe-440d-bc77-dab3d527ed1a)
+![image](https://github.com/user-attachments/assets/787d9b1b-a94d-492a-b902-c20eb9d340d9)
+![image](https://github.com/user-attachments/assets/c90e41d6-47d7-45bf-be7f-1db46af04295)
+![image](https://github.com/user-attachments/assets/bfd06a7d-6cf5-4396-b274-2450f02a9d78)
+
+
 ## Tech-Stacks
 | Category | Tools/Technologies |  
 |----------|-------------------|
