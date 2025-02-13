@@ -335,7 +335,7 @@ CREATE TABLE apt_comforts
 
 CREATE TABLE board_like
 (
-    board_like_id    INTEGER(10) NOT NULL COMMENT '게시판 좋아요ID',
+    board_like_id    INTEGER(10) NOT NULL AUTO_INCREMENT COMMENT '게시판 좋아요ID',
     user_id    INTEGER(10) NOT NULL COMMENT '회원ID',
     board_like_is_delete    ENUM('Y','N') DEFAULT 'N' NOT NULL COMMENT '좋아요 여부',
     board_comments_id    INTEGER(10) COMMENT '댓글ID',
