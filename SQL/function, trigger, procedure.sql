@@ -103,5 +103,112 @@ END$$
 DELIMITER ;
 
 
+-- 탑3 즐겨찾기(like) 조회 - 프로시저
+DELIMITER //
+
+CREATE PROCEDURE GetTop3Favorites()
+BEGIN
+    SELECT COUNT(*) AS count, portfolio_id
+    FROM likes
+    JOIN portfolio USING (portfolio_id)
+    GROUP BY portfolio_id
+    ORDER BY count DESC
+    LIMIT 3;
+END //
+
+-- 탑3 게시판좋아요(board_like) 조회 - 프로시저
+CREATE PROCEDURE GetTop3BoardLikes()
+BEGIN
+    SELECT COUNT(*) AS count, board_id
+    FROM board_like
+    JOIN board USING (board_id)
+    GROUP BY board_id
+    ORDER BY count DESC
+    LIMIT 3;
+END //
+
+DELIMITER ;
+
+
+-- 일자별 가입 사용자 수 조회 - 프로시저
+DELIMITER //
+
+CREATE PROCEDURE GetUserCountByDate(IN target_date DATE)
+BEGIN
+    SELECT COUNT(*) AS user_count
+    FROM user
+    WHERE DATE(user_created_at) = target_date;
+END //
+
+CREATE PROCEDURE GetBusinessUserCountByDate(IN target_date DATE)
+BEGIN
+    SELECT COUNT(*) AS business_user_count
+    FROM business_user
+    JOIN user USING (user_id)
+    WHERE user.role = 'business' AND DATE(user_created_at) = target_date;
+END //
+
+DELIMITER ;
+
+
+-- 월자별 가입 사용자 수 조회 -프로시저
+DELIMITER //
+
+CREATE FUNCTION GetUserCountByMonth(target_month INT)
+RETURNS INT
+DETERMINISTIC
+BEGIN
+    DECLARE user_count INT;
+    
+    SELECT COUNT(*) INTO user_count
+    FROM user
+    WHERE MONTH(user_created_at) = target_month;
+    
+    RETURN user_count;
+END //
+
+CREATE FUNCTION GetBusinessUserCountByMonth(target_month INT)
+RETURNS INT
+DETERMINISTIC
+BEGIN
+    DECLARE business_count INT;
+    
+    SELECT COUNT(*) INTO business_count
+    FROM business_user
+    JOIN user USING (user_id)
+    WHERE user.role = 'business' AND MONTH(user_created_at) = target_month;
+    
+    RETURN business_count;
+END //
+
+DELIMITER ;
+
+
+-- 신고 횟수 초과 시 자동 상담 요청을 생성하는 트리거
+DELIMITER $$
+
+CREATE TRIGGER trigger_auto_counsel
+AFTER INSERT ON report
+FOR EACH ROW
+BEGIN
+    DECLARE report_count INT;
+    
+    -- 해당 사용자의 신고 횟수 조회
+    SELECT COUNT(*) INTO report_count FROM report WHERE reported_user_id = NEW.reported_user_id;
+
+    -- 신고 횟수에 따라 상담(counsel) 요청 생성
+    IF report_count = 5 THEN
+        INSERT INTO counsel (counsel_status, user_id, business_user_id, counsel_content)
+        VALUES ('상담중', NEW.reported_user_id, 9999, '🚨 5회 신고 누적됨. 상담 필요.');
+    ELSEIF report_count = 10 THEN
+        INSERT INTO counsel (counsel_status, user_id, business_user_id, counsel_content)
+        VALUES ('상담중', NEW.reported_user_id, 9999, '⛔ 10회 이상 신고됨. 계정 정지 가능성 있음.');
+    END IF;
+END $$
+
+DELIMITER ;
+
+
+
 
 
