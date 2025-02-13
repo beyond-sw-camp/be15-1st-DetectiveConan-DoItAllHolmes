@@ -29,9 +29,10 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 
 
 ## 👯‍♀️팀원 소개
-![4b131354cfddad43-ezgif com-speed](https://github.com/user-attachments/assets/0abc9fa9-085e-488e-8691-ef8215d2c479)
 
-
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/0abc9fa9-085e-488e-8691-ef8215d2c479" width="800">
+</p>  
 
 ## Project-Proposal
 ## 목표
