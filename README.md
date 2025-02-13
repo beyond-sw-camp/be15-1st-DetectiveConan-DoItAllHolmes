@@ -22,7 +22,7 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 7. [테이블 정의서](#Table-Definition-Document)
 8. [테스트케이스 및 쿼리](#TestCase-and-Query)
 9. [기술 스택](#Tech-Stacks)
-10. [동료평가](#Feedback)
+10. [동료 평가](#Feedback)
 
 ---
 
