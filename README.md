@@ -305,7 +305,7 @@
 </details>
 
 <details>
-<summary>¹³부동산 즐겨찾기기 취소</summary>
+<summary>¹³부동산 즐겨찾기 취소</summary>
 <div markdown="1">
 
  ![image](https://github.com/user-attachments/assets/0f78660d-efca-47f4-87ca-32dc3f36265a)
