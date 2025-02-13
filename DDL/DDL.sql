@@ -148,7 +148,6 @@ CREATE TABLE interior
     interior_image    TEXT COMMENT '이미지파일',
     concept    VARCHAR(255) NOT NULL COMMENT '컨셉',
     interior_house_type    ENUM('원룸','투룸','아파트','오피스텔','전원주택') NOT NULL COMMENT '주거 형태',
-    interior_house_size    INTEGER(10) NOT NULL COMMENT '평 수',
     interior_budget    INTEGER(11) NOT NULL COMMENT '인테리어 예산',
     construction_date    DATETIME NOT NULL COMMENT '소요기간',
  PRIMARY KEY ( portfolio_id ),
