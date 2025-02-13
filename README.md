@@ -97,8 +97,9 @@
 
 ## TestCase-and-Query
 <details>
-<summary> 📜테스트 케이스 </summary>
+<summary>테스트 케이스</summary>
 <div markdown="1">
+
 
 </div>
 </details>
