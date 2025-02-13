@@ -5,7 +5,7 @@
 ## 목차
 1. [프로젝트 기획서](#Project-Proposal)
 2. [프로젝트 세부 사항](#Project-Detail)
-3. [기술 스택](##Tech-Stacks)
+3. [기술 스택](#Tech-Stacks)
 4. [WBS](#WBS)
 5. [모델링](#Modeling)
 6. [테스트케이스 및 쿼리](#TestCase-and-Query)
