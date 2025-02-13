@@ -100,6 +100,7 @@ CREATE TABLE house_survey
     comforts_info    TEXT(255) NOT NULL COMMENT '편의시설 정보',
     user_id    INTEGER(10) NOT NULL COMMENT '회원ID',
     room_count    INTEGER(2) NOT NULL COMMENT '방 갯수',
+    deal_type VARCHAR(30) NOT NULL COMMENT '구매 타입',
  PRIMARY KEY ( user_id ),
  UNIQUE (user_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '매물 설문지';
@@ -132,6 +133,7 @@ CREATE TABLE apt
     floor_space    INTEGER(10) NOT NULL COMMENT '평 수',
     portfolio_id    INTEGER(10) NOT NULL COMMENT '소개글ID',
     house_image    TEXT COMMENT '이미지 파일',
+    deal_type VARCHAR(30) NOT NULL COMMENT '구매 타입',
  PRIMARY KEY ( portfolio_id ),
  UNIQUE (portfolio_id)  -- Primary key already enforces uniqueness
 ) COMMENT = '집 매물';
