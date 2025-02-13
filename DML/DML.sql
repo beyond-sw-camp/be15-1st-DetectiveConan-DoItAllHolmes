@@ -11,6 +11,10 @@ VALUES
 ('서예준', '010-8901-2345', 'seoyejun', 'password8!', 'yejun.seo@example.com', '970808-8901234', '2024-02-10 11:10:00'),
 ('배지우', '010-9012-3456', 'baejiwoo', 'password9!', 'jiwoo.bae@example.com', '980909-9012345', '2024-02-10 11:20:00'),
 ('유시우', '010-0123-4567', 'yusiwoo', 'password10!', 'siwoo.yu@example.com', '990101-0123456', '2024-02-10 11:30:00');
+
+INSERT INTO user (user_id ,user_name, user_phone, user_login_id, user_login_password, user_email, user_num, user_created_at) 
+VALUES
+(9999,'관리자', '010-6371-9689', 'admin', 'admin', 'admin@admin.com', '001111-301554', '2025-02-25 10:30:00');
 INSERT INTO user (user_name, user_phone, user_login_id, user_login_password, user_email, user_num, user_created_at) 
 VALUES 
 ('김철수', '010-1234-5678', 'chulsu123', 'password1!', 'chulsu@example.com', '901010-1234567', NOW()),
@@ -52,6 +56,7 @@ VALUES
 ('셀프 페인팅으로 분위기 확 바꿨어요!', '흰 벽이 심심해서 직접 페인트칠했어요. 차분한 그레이 컬러로 바꿨더니 집이 훨씬 세련돼 보입니다.', 8, 'self_painting.jpg'),
 ('전세 계약 시 반드시 확인해야 할 사항', '전세 계약할 때 놓치기 쉬운 중요한 체크리스트를 정리했습니다. 사기 피해를 방지하기 위해 꼭 확인하세요!', 1, NULL),
 ('오래된 아파트 전체 리모델링 후기', '20년 된 아파트를 올 리모델링 했어요. 주방, 거실, 화장실까지 모두 새롭게 바뀌었고, 동선이 훨씬 편리해졌습니다. 감동입니다!', 10, 'full_remodeling.jpg');
+('서비스 점검 일정 공지', '안녕하세요. 원활한 서비스 제공을 위해 서버 점검이 진행될 예정입니다.\n- 점검 일시: 2024년 2월 15일 00:00 ~ 04:00\n이용에 불편을 드려 죄송하며, 더욱 안정적인 서비스를 제공하기 위해 노력하겠습니다. 감사합니다.', 999, NULL);
 
 -- 게시판 댓글 board_comments
 INSERT INTO board_comments 
