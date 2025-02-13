@@ -14,6 +14,8 @@
 ---
 ## Project-Proposal
 ### Do It All, Holmes!
+![4b131354cfddad43-ezgif com-speed](https://github.com/user-attachments/assets/0abc9fa9-085e-488e-8691-ef8215d2c479)
+
 ## 목표
 ---
 > ⭐ 집 구하는 것부터 시작해서 이사, 인테리어, 매물 구하는 것까지 ONE-STOP으로 제공
