@@ -1159,7 +1159,7 @@
 <summary>¹⁸커뮤니티 게시글 대댓글 합계</summary>
 <div markdown="1">
 
- 
+ ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
 
 </div>
 </details>
