@@ -11,6 +11,10 @@ VALUES
 ('서예준', '010-8901-2345', 'seoyejun', 'password8!', 'yejun.seo@example.com', '970808-8901234', '2024-02-10 11:10:00'),
 ('배지우', '010-9012-3456', 'baejiwoo', 'password9!', 'jiwoo.bae@example.com', '980909-9012345', '2024-02-10 11:20:00'),
 ('유시우', '010-0123-4567', 'yusiwoo', 'password10!', 'siwoo.yu@example.com', '990101-0123456', '2024-02-10 11:30:00');
+
+INSERT INTO user (user_id ,user_name, user_phone, user_login_id, user_login_password, user_email, user_num, user_created_at) 
+VALUES
+(9999,'관리자', '010-6371-9689', 'admin', 'admin', 'admin@admin.com', '001111-301554', '2025-02-25 10:30:00');
 INSERT INTO user (user_name, user_phone, user_login_id, user_login_password, user_email, user_num, user_created_at) 
 VALUES 
 ('김철수', '010-1234-5678', 'chulsu123', 'password1!', 'chulsu@example.com', '901010-1234567', NOW()),
