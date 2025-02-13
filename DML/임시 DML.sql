@@ -144,138 +144,148 @@ VALUES
 -- 부동산 업체 매물 apt
 
 
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 강남구 역삼동', 2, '중층', 3, 900000000, 35, 1, 'image1.jpg', '매매');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 마포구 상암동', 1, '중층', 2, 550000000, 25, 2, 'image2.jpg', '매매');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 송파구 잠실동', 3, '고층', 4, 1200000000, 40, 3, 'image3.jpg', '전세');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 강북구 수유동', 2, '저층', 3, 750000000, 30, 4, 'image4.jpg', '매매');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 서초구 방배동', 1, '중층', 2, 600000000, 28, 5, 'image5.jpg', '전세');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('경기도 성남시 분당구', 2, '저층', 3, 650000000, 38, 6, 'image6.jpg', '매매');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 용산구 한남동', 3, '고층', 4, 1100000000, 39, 7, 'image7.jpg', '전세');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 동작구 상도동', 2, '중층', 3, 850000000, 32, 8, 'image8.jpg', '매매');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 강서구 화곡동', 2, '저층', 3, 720000000, 34, 9, 'image9.jpg', '매매');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('경기도 고양시 일산동구', 2, '중층', 3, 500000000, 20, 10, 'image10.jpg', '전세');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 강서구 화곡동', 3, '저층', 4, 55000000, 31, 31, 'image31.jpg', '전세');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 서초구 방배동', 2, '고층', 4, 600000000, 40, 32, 'image32.jpg', '매매');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 동작구 상도동', 1, '저층', 2, 1200000000, 27, 33, 'image33.jpg', '매매');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 마포구 상암동', 2, '저층', 4, 30000000, 37, 34, 'image34.jpg', '매매');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 중구 을지로', 1, '저층', 1, 600000000, 29, 35, 'image35.jpg', '전세');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 강북구 수유동', 3, '중층', 5, 650000000, 38, 36, 'image36.jpg', '매매');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 강남구 역삼동', 1, '중층', 2, 300000000, 27, 37, 'image37.jpg', '전세');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 서초구 방배동', 2, '고층', 4, 68000000, 40, 38, 'image38.jpg', '매매');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('경기도 수원시 영통구', 1, '저층', 1, 15000000, 23, 39, 'image39.jpg', '전세');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 송파구 잠실동', 5, '저층', 3, 500000000, 33, 40, 'image40.jpg', '매매');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 용산구 한남동', 2, '고층', 3, 300000000, 35, 41, 'image41.jpg', '전세');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 용산구 한남동', 2, '고층', 3, 350000000, 35, 42, 'image42.jpg', '전세');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 강서구 화곡동', 3, '중층', 4, 720000000, 34, 43, 'image43.jpg', '매매');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('경기도 수원시 영통구', 1, '저층', 1, 10000000, 23, 44, 'image44.jpg', '전세');
-INSERT INTO `apt` (`house_location`, `bathroom`, `stairs`, `room_count`, `price`, `floor_space`, `portfolio_id`, `house_image`, `deal_type`) VALUES ('서울 동작구 상도동', 1, '저층', 4, 600000000, 25, 45, 'image45.jpg', '매매');
-
+INSERT
+INTO apt
+(house_location, bathroom, stairs, room_count, price, floor_space, portfolio_id, house_image, deal_type)
+VALUES
+('서울 강남구 역삼동', 2, '중층', 3, 900000000, 35, 1, 'image1.jpg', '매매'),
+('서울 마포구 상암동', 1, '중층', 2, 550000000, 25, 2, 'image2.jpg', '매매'),
+('서울 송파구 잠실동', 3, '고층', 4, 1200000000, 40, 3, 'image3.jpg', '전세'),
+('서울 강북구 수유동', 2, '저층', 3, 750000000, 30, 4, 'image4.jpg', '매매'),
+('서울 서초구 방배동', 1, '중층', 2, 600000000, 28, 5, 'image5.jpg', '전세'),
+('경기도 성남시 분당구', 2, '저층', 3, 650000000, 38, 6, 'image6.jpg', '매매'),
+('서울 용산구 한남동', 3, '고층', 4, 1100000000, 39, 7, 'image7.jpg', '전세'),
+('서울 동작구 상도동', 2, '중층', 3, 850000000, 32, 8, 'image8.jpg', '매매'),
+('서울 강서구 화곡동', 2, '저층', 3, 720000000, 34, 9, 'image9.jpg', '매매'),
+('경기도 고양시 일산동구', 2, '중층', 3, 500000000, 20, 10, 'image10.jpg', '전세'),
+('서울 강서구 화곡동', 3, '저층', 4, 55000000, 31, 31, 'image31.jpg', '전세'),
+('서울 서초구 방배동', 2, '고층', 4, 600000000, 40, 32, 'image32.jpg', '매매'),
+('서울 동작구 상도동', 1, '저층', 2, 1200000000, 27, 33, 'image33.jpg', '매매'),
+('서울 마포구 상암동', 2, '저층', 4, 30000000, 37, 34, 'image34.jpg', '매매'),
+('서울 중구 을지로', 1, '저층', 1, 600000000, 29, 35, 'image35.jpg', '전세'),
+('서울 강북구 수유동', 3, '중층', 5, 650000000, 38, 36, 'image36.jpg', '매매'),
+('서울 강남구 역삼동', 1, '중층', 2, 300000000, 27, 37, 'image37.jpg', '전세'),
+('서울 서초구 방배동', 2, '고층', 4, 68000000, 40, 38, 'image38.jpg', '매매'),
+('경기도 수원시 영통구', 1, '저층', 1, 15000000, 23, 39, 'image39.jpg', '전세'),
+('서울 송파구 잠실동', 5, '저층', 3, 500000000, 33, 40, 'image40.jpg', '매매'),
+('서울 용산구 한남동', 2, '고층', 3, 300000000, 35, 41, 'image41.jpg', '전세'),
+('서울 용산구 한남동', 2, '고층', 3, 350000000, 35, 42, 'image42.jpg', '전세'),
+('서울 강서구 화곡동', 3, '중층', 4, 720000000, 34, 43, 'image43.jpg', '매매'),
+('경기도 수원시 영통구', 1, '저층', 1, 10000000, 23, 44, 'image44.jpg', '전세'),
+('서울 동작구 상도동', 1, '저층', 4, 600000000, 25, 45, 'image45.jpg', '매매');
 -- 매물 설문지 house_survey
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (700000000, '전세', '서울 중구 을지로', 29, 1, '저층', 14, 1);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (3500000000, '전세', '서울 용산구 한남동', 39, 3, '고층', 6, 4);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (350000000, '전세', '서울 용산구 한남동', 35, 2, '고층', 16, 3);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (500000000, '매매', '서울 송파구 잠실동', 33, 5, '저층', 11, 3);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (700000000, '매매', '서울 서초구 방배동', 40, 2, '고층', 10, 4);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (700000000, '전세', '서울 서초구 방배동', 28, 1, '중층', 20, 2);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (450000000, '매매', '서울 마포구 상암동', 39, 2, '저층', 13, 4);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (1000000000, '매매', '서울 동작구 상도동', 25, 1, '저층', 9, 4);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (1000000000, '매매', '서울 동작구 상도동', 30, 2, '중층', 19, 3);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (800000000, '매매', '서울 강서구 화곡동', 34, 3, '중층', 7, 4);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (800000000, '매매', '서울 강서구 화곡동', 34, 3, '중층', 17, 4);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (800000000, '매매', '서울 강북구 수유동', 38, 3, '중층', 15, 5);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (300000000, '전세', '서울 강남구 역삼동', 27, 1, '중층', 12, 2);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (150000000, '전세', '경기도 수원시 영통구', 23, 1, '저층', 8, 1);
-INSERT INTO house_survey (budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count) VALUES (750000000, '매매', '경기도 성남시 분당구', 38, 2, '저층', 18, 3);
-
+INSERT
+INTO house_survey
+(budget, deal_type, house_location, floor_space, bathroom, stairs, user_id, room_count)
+VALUES (700000000, '전세', '서울 중구 을지로', 29, 1, '저층', 14, 1)
+,(3500000000, '전세', '서울 용산구 한남동', 39, 3, '고층', 6, 4)
+,(350000000, '전세', '서울 용산구 한남동', 35, 2, '고층', 16, 3)
+,(500000000, '매매', '서울 송파구 잠실동', 33, 5, '저층', 11, 3)
+,(700000000, '매매', '서울 서초구 방배동', 40, 2, '고층', 10, 4)
+,(700000000, '전세', '서울 서초구 방배동', 28, 1, '중층', 20, 2)
+,(450000000, '매매', '서울 마포구 상암동', 39, 2, '저층', 13, 4)
+,(1000000000, '매매', '서울 동작구 상도동', 25, 1, '저층', 9, 4)
+,(1000000000, '매매', '서울 동작구 상도동', 30, 2, '중층', 19, 3)
+,(800000000, '매매', '서울 강서구 화곡동', 34, 3, '중층', 7, 4)
+,(800000000, '매매', '서울 강서구 화곡동', 34, 3, '중층', 17, 4)
+,(800000000, '매매', '서울 강북구 수유동', 38, 3, '중층', 15, 5)
+,(300000000, '전세', '서울 강남구 역삼동', 27, 1, '중층', 12, 2)
+,(150000000, '전세', '경기도 수원시 영통구', 23, 1, '저층', 8, 1)
+,(750000000, '매매', '경기도 성남시 분당구', 38, 2, '저층', 18, 3);
 -- 인테리어 업체 소개 interior
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (11, 'interior_image1.jpg', '모던', '아파트', 50000000, '2025-02-01 10:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (12, 'interior_image2.jpg', '클래식', '원룸', 15000000, '2025-02-05 09:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (13, 'interior_image3.jpg', '내추럴', '투룸', 35000000, '2025-02-10 11:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (14, 'interior_image4.jpg', '빈티지', '오피스텔', 20000000, '2025-02-12 14:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (15, 'interior_image5.jpg', '로맨틱', '전원주택', 80000000, '2025-02-15 13:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (16, 'interior_image6.jpg', '레트로', '아파트', 60000000, '2025-02-18 16:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (17, 'interior_image7.jpg', '아늑함', '원룸', 12000000, '2025-02-20 17:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (18, 'interior_image8.jpg', '자연친화', '투룸', 45000000, '2025-02-22 18:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (19, 'interior_image9.jpg', '청량함', '오피스텔', 25000000, '2025-02-25 15:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (20, 'interior_image10.jpg', '조화로움', '전원주택', 120000000, '2025-02-28 19:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (61, 'interior_image61.jpg', '내추럴', '아파트', 62000000, '2025-03-01 10:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (62, 'interior_image62.jpg', '로맨틱', '원룸', 13000000, '2025-03-03 09:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (63, 'interior_image63.jpg', '아늑함', '투룸', 46000000, '2025-03-05 11:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (64, 'interior_image64.jpg', '자연친화', '오피스텔', 25000000, '2025-03-07 14:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (65, 'interior_image65.jpg', '모던', '전원주택', 75000000, '2025-03-08 13:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (66, 'interior_image66.jpg', '클래식', '아파트', 52000000, '2025-03-09 16:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (67, 'interior_image67.jpg', '내추럴', '원룸', 16000000, '2025-03-10 17:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (68, 'interior_image68.jpg', '내추럴', '투룸', 38000000, '2025-03-12 11:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (69, 'interior_image69.jpg', '모던', '전원주택', 85000000, '2025-03-13 12:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (70, 'interior_image70.jpg', '아늑함', '오피스텔', 26000000, '2025-03-14 15:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (71, 'interior_image71.jpg', '레트로', '아파트', 62000000, '2025-03-15 10:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (72, 'interior_image72.jpg', '조화로움', '원룸', 14000000, '2025-03-16 09:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (73, 'interior_image73.jpg', '로맨틱', '투룸', 47000000, '2025-03-18 17:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (74, 'interior_image74.jpg', '정량함', '오피스텔', 23000000, '2025-03-19 18:00:00');
-INSERT INTO `interior` (`portfolio_id`, `interior_image`, `concept`, `interior_house_type`, `interior_budget`, `construction_date`) VALUES (75, 'interior_image75.jpg', '레트로', '전원주택', 72000000, '2025-03-20 19:00:00');
+INSERT INTO interior (portfolio_id, interior_image, concept, interior_house_type, interior_budget, construction_date) 
+VALUES (11, 'interior_image1.jpg', '모던', '아파트', 50000000, '2025-02-01 10:00:00'),
+		 (12, 'interior_image2.jpg', '클래식', '원룸', 15000000, '2025-02-05 09:00:00'),
+		 (13, 'interior_image3.jpg', '내추럴', '투룸', 35000000, '2025-02-10 11:00:00'),
+		 (14, 'interior_image4.jpg', '빈티지', '오피스텔', 20000000, '2025-02-12 14:00:00'),
+  		 (15, 'interior_image5.jpg', '로맨틱', '전원주택', 80000000, '2025-02-15 13:00:00'),
+		 (16, 'interior_image6.jpg', '레트로', '아파트', 60000000, '2025-02-18 16:00:00'),
+		 (17, 'interior_image7.jpg', '아늑함', '원룸', 12000000, '2025-02-20 17:00:00'),
+		 (18, 'interior_image8.jpg', '자연친화', '투룸', 45000000, '2025-02-22 18:00:00'),
+		 (19, 'interior_image9.jpg', '청량함', '오피스텔', 25000000, '2025-02-25 15:00:00'),
+		 (20, 'interior_image10.jpg', '조화로움', '전원주택', 120000000, '2025-02-28 19:00:00'),
+		 (61, 'interior_image61.jpg', '내추럴', '아파트', 62000000, '2025-03-01 10:00:00'),
+		 (62, 'interior_image62.jpg', '로맨틱', '원룸', 13000000, '2025-03-03 09:00:00'),
+		 (63, 'interior_image63.jpg', '아늑함', '투룸', 46000000, '2025-03-05 11:00:00'),
+		 (64, 'interior_image64.jpg', '자연친화', '오피스텔', 25000000, '2025-03-07 14:00:00'),
+		 (65, 'interior_image65.jpg', '모던', '전원주택', 75000000, '2025-03-08 13:00:00'),
+		 (66, 'interior_image66.jpg', '클래식', '아파트', 52000000, '2025-03-09 16:00:00'),
+		 (67, 'interior_image67.jpg', '내추럴', '원룸', 16000000, '2025-03-10 17:00:00'),
+		 (68, 'interior_image68.jpg', '내추럴', '투룸', 38000000, '2025-03-12 11:00:00'),
+		 (69, 'interior_image69.jpg', '모던', '전원주택', 85000000, '2025-03-13 12:00:00'),
+		 (70, 'interior_image70.jpg', '아늑함', '오피스텔', 26000000, '2025-03-14 15:00:00'),
+		 (71, 'interior_image71.jpg', '레트로', '아파트', 62000000, '2025-03-15 10:00:00'),
+		 (72, 'interior_image72.jpg', '조화로움', '원룸', 14000000, '2025-03-16 09:00:00'),
+		 (73, 'interior_image73.jpg', '로맨틱', '투룸', 47000000, '2025-03-18 17:00:00'),
+		 (74, 'interior_image74.jpg', '정량함', '오피스텔', 23000000, '2025-03-19 18:00:00'),
+		 (75, 'interior_image75.jpg', '레트로', '전원주택', 72000000, '2025-03-20 19:00:00');
 
 
 -- 이사 업체 소개 move
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (21, '서울 강남구, 송파구', 100000, 300000, '포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (22, '서울 마포구, 용산구', 70000, 250000, '반포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (23, '서울 강북구, 서대문구', 90000, 280000, '포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (24, '경기도 성남시, 고양시', 80000, 220000, '반포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (25, '서울 동작구, 관악구', 120000, 350000, '포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (26, '서울 강서구, 구로구', 100000, 270000, '반포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (27, '서울 용산구, 마포구', 95000, 250000, '포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (28, '경기도 부천시, 시흥시', 85000, 240000, '반포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (29, '서울 성동구, 광진구', 110000, 320000, '포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (30, '서울 노원구, 중랑구', 70000, 220000, '반포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (46, '서울 강남구, 서초구', 110000, 320000, '포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (47, '서울 마포구, 용산구', 80000, 260000, '반포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (48, '서울 강남구, 용산구', 95000, 280000, '포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (49, '서울 동작구, 관악구', 105000, 300000, '반포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (50, '서울 강서구, 용산구', 90000, 250000, '포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (51, '서울 송파구, 강남구', 95000, 270000, '반포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (52, '서울 중구, 서대문구', 98000, 290000, '포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (53, '경기도 부천시, 시흥시', 87000, 240000, '반포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (54, '서울 강북구, 종로구', 97000, 260000, '포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (55, '서울 노원구, 성북구', 75000, 230000, '반포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (56, '서울 송파구, 강남구', 96000, 275000, '반포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (57, '서울 중구, 서대문구', 99000, 295000, '포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (58, '경기도 부천시, 시흥시', 88000, 245000, '반포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (59, '서울 강북구, 종로구', 98000, 265000, '포장');
-INSERT INTO move (portfolio_id, active_location, min_price, max_price, move_type) VALUES (60, '서울 노원구, 성북구', 76000, 235000, '반포장');
-
+INSERT
+INTO move
+(portfolio_id, active_location, min_price, max_price, move_type)
+VALUES (21, '서울 강남구, 송파구', 100000, 300000, '포장')
+,(22, '서울 마포구, 용산구', 70000, 250000, '반포장')
+,(23, '서울 강북구, 서대문구', 90000, 280000, '포장')
+,(24, '경기도 성남시, 고양시', 80000, 220000, '반포장')
+,(25, '서울 동작구, 관악구', 120000, 350000, '포장')
+,(26, '서울 강서구, 구로구', 100000, 270000, '반포장')
+,(27, '서울 용산구, 마포구', 95000, 250000, '포장')
+,(28, '경기도 부천시, 시흥시', 85000, 240000, '반포장')
+,(29, '서울 성동구, 광진구', 110000, 320000, '포장')
+,(30, '서울 노원구, 중랑구', 70000, 220000, '반포장')
+,(46, '서울 강남구, 서초구', 110000, 320000, '포장')
+,(47, '서울 마포구, 용산구', 80000, 260000, '반포장')
+,(48, '서울 강남구, 용산구', 95000, 280000, '포장')
+,(49, '서울 동작구, 관악구', 105000, 300000, '반포장')
+,(50, '서울 강서구, 용산구', 90000, 250000, '포장')
+,(51, '서울 송파구, 강남구', 95000, 270000, '반포장')
+,(52, '서울 중구, 서대문구', 98000, 290000, '포장')
+,(53, '경기도 부천시, 시흥시', 87000, 240000, '반포장')
+,(54, '서울 강북구, 종로구', 97000, 260000, '포장')
+,(55, '서울 노원구, 성북구', 75000, 230000, '반포장')
+,(56, '서울 송파구, 강남구', 96000, 275000, '반포장')
+,(57, '서울 중구, 서대문구', 99000, 295000, '포장')
+,(58, '경기도 부천시, 시흥시', 88000, 245000, '반포장')
+,(59, '서울 강북구, 종로구', 98000, 265000, '포장')
+,(60, '서울 노원구, 성북구', 76000, 235000, '반포장');
 
 -- 이사 설문조사(사용자) move_survey
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (6, '반포장', '서울 송파구 잠실동 10-11', '서울 강남구 대치동 54-78');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (7, '포장', '서울 마포구 상암동 10-1', '서울 서대문구 홍제동 12-34');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (8, '반포장', '경기도 부천시 상동 34-56', '경기도 시흥시 정왕동 78-90');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (9, '포장', '서울 강북구 수유동 23-45', '서울 종로구 종로1가 1-1');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (10, '반포장', '서울 서대문구 홍제동 12-34', '서울 성북구 정릉동 12-34');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (11, '포장', '서울 마포구 상암동 10-1', '서울 서초구 반포동 56-78');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (12, '반포장', '경기도 시흥시 정왕동 78-90', '서울 강북구 수유동 23-45');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (13, '포장', '경기도 성남시 분당구 정자동 234-56', '서울 마포구 상암동 10-1');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (14, '반포장', '서울 동작구 상도동 12-34', '서울 관악구 봉천동 45-67');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (15, '포장', '서울 강서구 화곡동 98-76', '경기도 고양시 일산동구 123-45');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (16, '반포장', '서울 송파구 잠실동 10-11', '서울 강남구 대치동 54-78');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (17, '포장', '서울 강서구 화곡동 98-76', '서울 중구 을지로 56-89');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (18, '반포장', '경기도 부천시 상동 34-56', '서울 용산구 한남동 22-33');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (19, '포장', '서울 마포구 상암동 10-1', '서울 종로구 종로1가 1-1');
-INSERT INTO move_survey (user_id, move_type, from_address, to_address) VALUES (20, '반포장', '서울 강북구 수유동 23-45', '서울 성북구 정릉동 12-34');
-
+INSERT INTO move_survey (user_id, move_type, from_address, to_address)
+VALUES (6, '반포장', '서울 송파구 잠실동 10-11', '서울 강남구 대치동 54-78'),
+(7, '포장', '서울 마포구 상암동 10-1', '서울 서대문구 홍제동 12-34'),
+(8, '반포장', '경기도 부천시 상동 34-56', '경기도 시흥시 정왕동 78-90'),
+(9, '포장', '서울 강북구 수유동 23-45', '서울 종로구 종로1가 1-1'),
+(10, '반포장', '서울 서대문구 홍제동 12-34', '서울 성북구 정릉동 12-34'),
+(11, '포장', '서울 마포구 상암동 10-1', '서울 서초구 반포동 56-78'),
+(12, '반포장', '경기도 시흥시 정왕동 78-90', '서울 강북구 수유동 23-45'),
+(13, '포장', '경기도 성남시 분당구 정자동 234-56', '서울 마포구 상암동 10-1'),
+(14, '반포장', '서울 동작구 상도동 12-34', '서울 관악구 봉천동 45-67'),
+(15, '포장', '서울 강서구 화곡동 98-76', '경기도 고양시 일산동구 123-45'),
+(16, '반포장', '서울 송파구 잠실동 10-11', '서울 강남구 대치동 54-78'),
+(17, '포장', '서울 강서구 화곡동 98-76', '서울 중구 을지로 56-89'),
+(18, '반포장', '경기도 부천시 상동 34-56', '서울 용산구 한남동 22-33'),
+(19, '포장', '서울 마포구 상암동 10-1', '서울 종로구 종로1가 1-1'),
+(20, '반포장', '서울 강북구 수유동 23-45', '서울 성북구 정릉동 12-34');
 -- 인테리어 설문조사(사용자) interior_survey
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (6, '내추럴', '아파트', 35, 65000000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (7, '로맨틱', '원룸', 18, 17000000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (8, '아늑함', '투룸', 45, 50000000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (9, '자연친화', '오피스텔', 28, 30000000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (10, '모던', '전원주택', 80, 80000000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (11, '클래식', '아파트', 30, 60000000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (12, '내추럴', '원룸', 20, 25000000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (13, '모던', '투룸', 40, 45000000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (14, '모던', '전원주택', 100, 90000000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (15, '아늑함', '오피스텔', 25, 35000000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (16, '청량함', '아파트', 35, 75000000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (17, '조화로움', '원룸', 18, 20500000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (18, '로맨틱', '투룸', 45, 55000000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (19, '내추럴', '오피스텔', 28, 30000000);
-INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES (20, '레트로', '전원주택', 80, 80000000);
+INSERT INTO interior_survey (user_id, interior_concept, interior_house_type, interior_house_size, interior_budget) VALUES 
+(7, '로맨틱', '원룸', 18, 17000000),
+(8, '아늑함', '투룸', 45, 50000000),
+(9, '자연친화', '오피스텔', 28, 30000000),
+(10, '모던', '전원주택', 80, 80000000),
+(11, '클래식', '아파트', 30, 60000000),
+(12, '내추럴', '원룸', 20, 25000000),
+(13, '모던', '투룸', 40, 45000000),
+(14, '모던', '전원주택', 100, 90000000),
+(15, '아늑함', '오피스텔', 25, 35000000),
+(16, '청량함', '아파트', 35, 75000000),
+(17, '조화로움', '원룸', 18, 20500000),
+(18, '로맨틱', '투룸', 45, 55000000),
+(19, '내추럴', '오피스텔', 28, 30000000),
+(20, '레트로', '전원주택', 80, 80000000);
+
+
 -- 즐겨찾기 likes
 INSERT INTO likes 
 (user_id, portfolio_id)
@@ -380,7 +390,7 @@ VALUES
 ('낚시성 게시물', 9, NOW(), 1, 9, NULL),         -- 회원 9가 회원 1의 낚시성 게시물 신고
 ('불법 게시물', 10, NOW(), 2, 4, NULL);
 
--- 이용 후기 review ****************************
+-- 이용 후기 review 
 INSERT INTO review (review_contents, portfolio_id, counsel_id, review_image)
 VALUES 
 ('상담 후 집 인테리어가 너무 만족스러웠습니다!', 5, 1, 'image_url.jpg'),
@@ -389,7 +399,7 @@ VALUES
 ('인테리어 상담 후, 집 분위기가 완전히 달라졌습니다. 정말 만족해요!', 64, 7, 'image.jpg'),
 ('부동산 상담을 통해 원하는 조건의 집을 찾을 수 있어서 너무 감사해요.', 45, 2, 'house_image2.jpg');
 
--- 이용 후기 댓글 review_comments **************************
+-- 이용 후기 댓글 review_comments 
 INSERT INTO review_comments (review_comments_contents, review_id, user_id)
 VALUES 
 ('고객님께서 만족하셨다니 기쁩니다. 앞으로도 최고의 서비스를 제공하겠습니다!', 6, 1),
