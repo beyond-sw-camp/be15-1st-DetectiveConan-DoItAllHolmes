@@ -64,33 +64,51 @@
 > **💡커뮤니티를 통해 누구나 자신의 방의 인테리어나 가구를 소개하는 글을 작성해 서로 소통할 수 있습니다.**  
 
 ### Product
-> #### usecase
+> #### Usecase
+<details>
+<summary>유스케이스</summary>
+ 
 ![유스케이스](./images/usecase.png)
 
+</details>
+
 > #### Software Requirement Specification
+
+<details>
+<summary>요구사항 명세서</summary>
+ 
 ![image](https://github.com/user-attachments/assets/8f17ed82-ecb8-49bf-b74f-0f3e947739c2)
 
 ![image](https://github.com/user-attachments/assets/04393ec0-ee30-4140-a76b-f58ff63b8fbe)
 
 ![image](https://github.com/user-attachments/assets/80b5607f-a131-471e-9536-4ff4070f8935)
 
+</details>
 
 ## Table Definition Document
+
+<details>
+ <summary> 테이블 정의서 </summary>
+ 
 ![image](https://github.com/user-attachments/assets/eea896ca-b5fe-440d-bc77-dab3d527ed1a)
 ![image](https://github.com/user-attachments/assets/787d9b1b-a94d-492a-b902-c20eb9d340d9)
 ![image](https://github.com/user-attachments/assets/c90e41d6-47d7-45bf-be7f-1db46af04295)
 ![image](https://github.com/user-attachments/assets/bfd06a7d-6cf5-4396-b274-2450f02a9d78)
 
+</details>
 
 ## Tech-Stacks
-| Category | Tools/Technologies |  
-|----------|-------------------|
-| Database |<img src = "https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" >|
-| VCS      |<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
+| Category   | Tools/Technologies |
+|------------|--------------------|
+| Database   |   <img src="https://img.shields.io/badge/mariadb-003545?style=for-the-badge&logo=mariadb&logoColor=white">          |
+| OS    |   <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">  <img src="https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=black">|
+| Cloud Server | <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">     |
+| Modeling |   <img src="https://img.shields.io/badge/da%23-84A454?style=for-the-badge&logo=&logoColor=black" alt="da#">  |
 
 ## TestCase-and-Query
 <details>
-<summary>테스트 케이스</summary>
+<summary>💌테스트 케이스</summary>
 
  ![테스트케이스](./images/image1.png)
  ![테스트케이스](./images/image2.png)
