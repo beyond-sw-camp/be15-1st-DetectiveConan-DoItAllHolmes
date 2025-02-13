@@ -1,0 +1,46 @@
+-- TS_074 매물 매칭
+-- 사용자가 설문한 내용을 바탕으로 원하는 매물을 보여주고  recommend테이블에 삽입한다.
+INSERT INTO recommend (portfolio_id, user_id)
+SELECT  DISTINCT ap.portfolio_id, hs.user_id
+FROM apt_portfolio ap
+JOIN house_survey hs ON  hs.floor_space DIV 10 = ap.floor_space DIV 10
+                                                        AND hs.stairs = ap.stairs
+                                                        AND hs.bathroom = ap.bathroom
+                                                        AND hs.budget >= ap.price
+                                                        AND hs.room_count = ap.room_count
+                                                        AND hs.deal_type = ap.deal_type
+WHERE hs.user_id = 20;
+
+
+
+-- TS_075 이사 업체 매칭
+-- 사용자가 설문한 내용을 바탕으로 원하는 이사업체를 보여주고 recommend테이블에 삽입한다.
+INSERT INTO recommend (portfolio_id, user_id)
+SELECT DISTINCT p.portfolio_id, ms.user_id
+FROM move_portfolio p  
+JOIN move_survey ms ON p.move_type = ms.move_type
+WHERE ms.user_id = 9
+    AND (
+        -- from_address에서 두 번째 단어가 active_location에 포함되는지 확인
+        TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(ms.from_address, ' ', 2), ' ', -1)) IN (
+            TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(p.active_location, ',', 1), ' ', -1)), 
+            TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(p.active_location, ',', 2), ' ', -1))
+        )
+        OR
+        -- to_address에서 두 번째 단어가 active_location에 포함되는지 확인
+        TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(ms.to_address, ' ', 2), ' ', -1)) IN (
+            TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(p.active_location, ',', 1), ' ', -1)), 
+            TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(p.active_location, ',', 2), ' ', -1))
+        )
+    );
+    
+    
+-- TS_076 인테리어  업체 매칭
+-- "사용자가 설문한 내용을 바탕으로 원하는 인테리어 업체 추천한 뒤 recommend 테이블에 삽입한다."
+INSERT INTO recommend (portfolio_id, user_id)
+SELECT DISTINCT i.portfolio_id, ins.user_id
+FROM interior_portfolio i
+JOIN interior_survey ins ON ins.interior_concept = i.concept 
+                                                                 AND ins.interior_house_type = i.interior_house_type 
+                         AND ins.interior_budget >= i.interior_budget
+WHERE ins.user_id = 17;
