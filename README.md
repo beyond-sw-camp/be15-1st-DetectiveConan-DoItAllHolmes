@@ -75,9 +75,12 @@
 >> ![유스케이스](./images/usecase.png)
 
 > #### Software Requirement Specification
->> ![요구사항명세서1](./images/requirement1.png)
->> ![요구사항명세서2](./images/requirement2.png)
->> ![요구사항명세서3](./images/requirement3.png)
+>> ![image](https://github.com/user-attachments/assets/8f17ed82-ecb8-49bf-b74f-0f3e947739c2)
+
+>> ![image](https://github.com/user-attachments/assets/04393ec0-ee30-4140-a76b-f58ff63b8fbe)
+
+>> ![image](https://github.com/user-attachments/assets/80b5607f-a131-471e-9536-4ff4070f8935)
+
 
 ## Table Definition Document
 ![image](https://github.com/user-attachments/assets/eea896ca-b5fe-440d-bc77-dab3d527ed1a)
@@ -93,6 +96,17 @@
 | VCS      |<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 ## TestCase-and-Query
+<details>
+<div markdown="1">
+<summary> 📜테스트 케이스 </summary>
+> ![image](https://github.com/user-attachments/assets/e9ad4551-6286-4f92-af85-cce5cf4ded9b)
+> ![image](https://github.com/user-attachments/assets/5322f62a-e599-482c-b97e-a6a1cf53e217)
+> ![image](https://github.com/user-attachments/assets/1d353ea5-67fc-4310-b69c-f28880abfe28)
+> ![image](https://github.com/user-attachments/assets/ea06b8e0-e862-4956-9880-1f3130e94d0a)
+> ![image](https://github.com/user-attachments/assets/726c05e6-6aad-41d8-955a-a2bd2cb870f9)
+ </div>
+</details>
+
 <details>
 <summary> 👩회원</summary>
 <div markdown="1">
