@@ -65,15 +65,15 @@ BEGIN
     DECLARE report_count INT;
     
     -- 해당 사용자의 신고 횟수 조회
-    SELECT COUNT(*) INTO report_count FROM report WHERE reported_user_id = NEW.reported_user_id;
+    SELECT COUNT(*) INTO report_count FROM report WHERE reported_id = NEW.reported_id;
 
     -- 신고 횟수에 따라 상담(counsel) 요청 생성
     IF report_count = 5 THEN
         INSERT INTO counsel (counsel_status, user_id, business_user_id, counsel_content)
-        VALUES ('상담중', NEW.reported_user_id, 9999, '🚨 5회 신고 누적됨. 상담 필요.');
+        VALUES ('상담중', NEW.reported_id, 999, '🚨 5회 신고 누적됨. 상담 필요.');
     ELSEIF report_count = 10 THEN
         INSERT INTO counsel (counsel_status, user_id, business_user_id, counsel_content)
-        VALUES ('상담중', NEW.reported_user_id, 9999, '⛔ 10회 이상 신고됨. 계정 정지 가능성 있음.');
+        VALUES ('상담중', NEW.reported_id, 999, '⛔ 10회 이상 신고됨. 계정 정지 가능성 있음.');
     END IF;
 END $$
 
