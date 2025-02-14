@@ -1300,7 +1300,7 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 <summary>후기 작성 시 상담 상태 확인 트리거</summary>
 <div markdown="1">
 
- ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+ ![trigger](./images/trigger_status_confirm.png)
 
 </div>
 </details>
@@ -1309,16 +1309,18 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 <summary>회원 탈퇴시 관련 데이터 정리 트리거</summary>
 <div markdown="1">
 
- ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
-
+![trigger](./images/trigger_signout.png)
+![trigger](./images/trigger_signout_result.png)
+![trigger](./images/trigger_signout_result2.png)
+![trigger](./images/trigger_signout_result3.png)
 </div>
 </details>
 <details>
-<summary>신고횟수 초과 시 자동 상담 요청을 생서하는 트리거</summary>
+<summary>신고횟수 초과 시 자동 상담 요청을 생성하는 트리거</summary>
 <div markdown="1">
 
- ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
-
+ ![trigger](./images/trigger_report.png)
+ ![trigger](./images/trigger_report_result.png)
 </div>
 </details>
 
@@ -1326,15 +1328,17 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 <summary>특정 사용자가 작성한 모든 후기 가져오기 프로시져</summary>
 <div markdown="1">
 
- ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+ ![procedure](./images/procedure_1st.png)
 
 </div>
 </details>
+
 <details>
 <summary>특정 상담 상태 변경 프로시져</summary>
 <div markdown="1">
-
- ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+    
+![procedure](./images/counsel_status_before_result.png)
+![procedure](./images/counsel_status.png)
 
 </div>
 </details>
@@ -1343,7 +1347,7 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 <summary>Top3 즐겨찾기 조회 프로시저</summary>
 <div markdown="1">
 
- ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+![procedure](./images/procedure_favorite.png)
 
 </div>
 </details>
@@ -1351,7 +1355,7 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 <summary>Top3 게시판 좋아요 조회 프로시저</summary>
 <div markdown="1">
 
- ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+![procedure](./images/procedure_likes.png)
 
 </div>
 </details>
@@ -1360,7 +1364,16 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 <summary>일자별 가입 사용자 수 조회 프로시저</summary>
 <div markdown="1">
 
- ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+ ![procedure](./images/procedure_date_user.png)
+
+</div>
+</details>
+
+<details>
+<summary>일자별 가입 사업자 수 조회 프로시저</summary>
+<div markdown="1">
+
+![procedure](./images/procedure_date_business_user.png)
 
 </div>
 </details>
@@ -1369,7 +1382,7 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 <summary>월자별 가입 사용자 수 조회</summary>
 <div markdown="1">
 
- ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+ ![function](./images/function_month_user.png)
 
 </div>
 </details>
@@ -1378,7 +1391,7 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 <summary>월자별 가입 비즈니스 사용자 수 조회</summary>
 <div markdown="1">
 
- ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+ ![function](./images/function_month_business.png)
 
 </div>
 </details>
