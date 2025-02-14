@@ -170,18 +170,26 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 ### Replication 서버 구축
    **1. 개요**  
 * Master-Slave 서버를 구축하고, 데이터 베이스 복제를 설정하는 과정을 기록  
-* 이는 데이터 무결성 유지 및 부하 분산을 위해 구현  
+* 이는 데이터 무결성 유지 및 부하 분산을 위해 구현 
+</br>
 
   **2. 목적**
 * 데이터 무결성 및 고가용성 유지
 * 부하 분산
 * 백업 및 복구 용이  
 
-  **3. Master 및 Slave 서버 연동**
+</br>
 
+**3. Master 및 Slave 서버 연동**  
+![서버 연동](./images/master_server.png)
 
-  **4. Master 서버에 데이터베이스 생성 후 Slave 서버에 동기화**
+![서버 연동](./images/slave_server.png)
+</br>
+</br>
+**4. Master 서버에 데이터베이스 생성 후 Slave 서버에 동기화**
+![데이터 베이스 생성](./images/master_database_creating.png)
 
+![데이터 베이스 생성](./images/slave_database_creating.png)
 ## TestCase-and-Query
 <details>
 <summary>💌테스트 케이스</summary>
@@ -1283,10 +1291,10 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 
 | Category   | Tools/Technologies |
 |------------|--------------------|
-| Database   |   <img src="https://img.shields.io/badge/mariadb-003545?style=for-the-badge&logo=mariadb&logoColor=white">          |
+| Database   |   <img src="https://img.shields.io/badge/mariadb-003545?style=for-the-badge&logo=mariadb&logoColor=white"> <img src="https://img.shields.io/badge/HeidiSQL-4479A1?style=for-the-badge&logo=heidisql&logoColor=white" />          |
 | OS    |   <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">  <img src="https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=black">|
-| Cloud Server | <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">     |
-| Modeling |   <img src="https://img.shields.io/badge/da%23-84A454?style=for-the-badge&logo=&logoColor=black" alt="da#">  |
+| collaboration tool | <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) </br>  <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">     |
+| Modeling |   <img src="https://img.shields.io/badge/da%23-84A454?style=for-the-badge&logo=&logoColor=black" alt="da#"> <img src="https://img.shields.io/badge/ERD_Cloud-4A90E2?style=for-the-badge&logo=cloud&logoColor=white" /> <img src="https://img.shields.io/badge/Draw.io-F08705?style=for-the-badge&logo=diagrams.net&logoColor=white" />  |
 
 ## Feedback 
 | 조원명 | REIVIEW |
