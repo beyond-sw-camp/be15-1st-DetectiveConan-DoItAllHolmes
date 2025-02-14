@@ -2,7 +2,7 @@
 ---
 <p align="center">
     <img src="https://github.com/user-attachments/assets/0b5fca77-a870-4385-935a-740f5e980bd8" width="300">
-    <img src="https://github.com/user-attachments/assets/54095a8e-f1c9-4208-90f1-30e5a67af0d1" width="300">
+    <img src="https://github.com/user-attachments/assets/091cf674-3e60-4aa5-a6b7-553348c451d1" width="300">
 </p>
 
 ### 🔍 Do It All, Holmes!
