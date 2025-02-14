@@ -8,10 +8,7 @@
 ### 🔍 Do It All, Holmes!
 
 ---
-WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!  
-논리 모델링 이미지 넣어주세요  
-물리 모델링 이미지 넣어주세요  
-회고는 각자? 서로?
+
 ## 목차
 1. [프로젝트 기획서](#Project-Proposal)
 2. [프로젝트 세부 사항](#Project-Detail)
@@ -111,7 +108,8 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 <details>
 <summary>WBS</summary>
  
-![WBS](https://github.com/user-attachments/assets/6d3eb8ed-035c-46b4-83c8-9292afe5f015)
+![WBS](./images/wbs1.png)  
+![WBS](./images/wbs2.png)
 
 </details>
 
@@ -163,6 +161,7 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 <details>
 <summary>Physical Data Modeling</summary>
 
+![physical](./images/physical_modeling.png)
 
 
 
