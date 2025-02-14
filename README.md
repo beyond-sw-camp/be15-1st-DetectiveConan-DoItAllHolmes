@@ -1292,6 +1292,101 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 </details>
 </details>
 
+<details>
+<summary> 🛖관련 Storaged Object</summary>
+<div markdown="1">
+</div>
+<details>
+<summary>후기 작성 시 상담 상태 확인 트리거</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+
+</div>
+</details>
+
+<details>
+<summary>회원 탈퇴시 관련 데이터 정리 트리거</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+
+</div>
+</details>
+<details>
+<summary>신고횟수 초과 시 자동 상담 요청을 생서하는 트리거</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+
+</div>
+</details>
+
+<details>
+<summary>특정 사용자가 작성한 모든 후기 가져오기 프로시져</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+
+</div>
+</details>
+<details>
+<summary>특정 상담 상태 변경 프로시져</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+
+</div>
+</details>
+
+<details>
+<summary>Top3 즐겨찾기 조회 프로시저</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+
+</div>
+</details>
+<details>
+<summary>Top3 게시판 좋아요 조회 프로시저</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+
+</div>
+</details>
+
+<details>
+<summary>일자별 가입 사용자 수 조회 프로시저</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+
+</div>
+</details>
+
+<details>
+<summary>월자별 가입 사용자 수 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+
+</div>
+</details>
+
+<details>
+<summary>월자별 가입 비즈니스 사용자 수 조회</summary>
+<div markdown="1">
+
+ ![image](https://github.com/user-attachments/assets/6598357e-f9e4-49ad-bac5-0d848e2d1cf1)
+
+</div>
+</details>
+
+
+</details>
+</details>
+
 ## Tech-Stacks
 
 | Category   | Tools/Technologies |
