@@ -163,7 +163,6 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 <details>
 <summary>Physical Data Modeling</summary>
 
-![logical](./images/physical_modeling.png)
 
 
 
@@ -191,6 +190,10 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 </br>
 **4. Master 서버에 데이터베이스 생성 후 Slave 서버에 동기화**
 ![데이터 베이스 생성](./images/master_database_creating.png)
+
+</br>
+
+**5. slave 서버에서 데이터 변경 시 read only옵션으로 인한 오류 발생**
 
 ![데이터 베이스 생성](./images/slave_database_creating.png)
 ## TestCase-and-Query
