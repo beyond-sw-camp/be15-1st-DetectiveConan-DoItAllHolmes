@@ -20,9 +20,10 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 5. [유스케이스](#Usecase)
 6. [요구사항 명세서](#Software-Requirement-Specification)
 7. [테이블 정의서](#Table-Definition-Document)
-8. [테스트케이스 및 쿼리](#TestCase-and-Query)
-9. [기술 스택](#Tech-Stacks)
-10. [동료 평가](#Feedback)
+8. [서버 구축](#Server-Setup)
+9. [테스트케이스 및 쿼리](#TestCase-and-Query)
+10. [기술 스택](#Tech-Stacks)
+11. [동료 평가](#Feedback)
 
 ---
 
@@ -114,21 +115,7 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 
 </details>
 
-## Modeling
 
-<details>
-<summary>Logical Data Modeling</summary>
- 
-논리 모델링 이미지 넣어주세요
-
-</details>
-
-<details>
-<summary>Physical Data Modeling</summary>
- 
-물리 모델링 이미지 넣어주세요
-
-</details>
 
 ## Usecase
 <details>
@@ -163,7 +150,31 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 
 </details>
 
+## Modeling
 
+<details>
+<summary>Logical Data Modeling</summary>
+ 
+논리 모델링 이미지 넣어주세요
+
+</details>
+
+<details>
+<summary>Physical Data Modeling</summary>
+ 
+물리 모델링 이미지 넣어주세요
+
+</details>
+
+## Server-Setup
+### Replication 서버 구축
+   **1. 개요**
+
+   **2. 목적**
+
+   **3. Master 및 Slave 서버 연동**
+
+   **4. Master 서버에 데이터베이스 생성 후 Slave 서버에 동기화**
 
 ## TestCase-and-Query
 <details>
