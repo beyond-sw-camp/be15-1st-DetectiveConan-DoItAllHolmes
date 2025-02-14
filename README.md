@@ -154,15 +154,18 @@ WBS 수정해야합니다. 역할 부분 채워서 캡쳐해주세요!
 
 <details>
 <summary>Logical Data Modeling</summary>
- 
-논리 모델링 이미지 넣어주세요
+
+![logical](./images/logical_modeling.png)
+
 
 </details>
 
 <details>
 <summary>Physical Data Modeling</summary>
- 
-물리 모델링 이미지 넣어주세요
+
+![logical](./images/physical_modeling.png)
+
+
 
 </details>
 
