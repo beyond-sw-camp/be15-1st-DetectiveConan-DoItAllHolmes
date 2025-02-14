@@ -1,8 +1,8 @@
 ## 다 해줘 홈즈!🕵️‍♀️ 사용자 맞춤 이사, 인테리어, 부동산 추천 시스템 🏘  
 ---
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/0b5fca77-a870-4385-935a-740f5e980bd8" width="300">
-    <img src="https://github.com/user-attachments/assets/d00cb202-e366-4575-83fa-fea012033529" width="300">
+    <img src="https://github.com/user-attachments/assets/9514a6ea-31a0-44f6-8e9e-8f19c79c5ea2" width="300">
+    <img src="https://github.com/user-attachments/assets/f18ff628-2ae0-46c2-ba1a-c05e7fb0ce66" width="300">
 </p>
 
 ### 🔍 Do It All, Holmes!
