@@ -9,7 +9,7 @@
 
 ---
 
-## 목차
+## 목차  
 1. [프로젝트 기획서](#Project-Proposal)
 2. [프로젝트 세부 사항](#Project-Detail)
 3. [WBS](#WBS)
