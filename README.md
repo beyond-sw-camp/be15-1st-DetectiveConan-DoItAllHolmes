@@ -1,7 +1,7 @@
 ## 다 해줘 홈즈!🕵️‍♀️ 사용자 맞춤 이사, 인테리어, 부동산 추천 시스템 🏘  
 ---
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/54785bc3-65f6-45c2-9458-b3ba2a02a990" width="300">
+    <![image](https://github.com/user-attachments/assets/0b5fca77-a870-4385-935a-740f5e980bd8) width="300">
     <img src="https://github.com/user-attachments/assets/54095a8e-f1c9-4208-90f1-30e5a67af0d1" width="300">
 </p>
 
