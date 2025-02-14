@@ -19,8 +19,9 @@
 7. [테이블 정의서](#Table-Definition-Document)
 8. [서버 구축](#Server-Setup)
 9. [테스트케이스 및 쿼리](#TestCase-and-Query)
-10. [기술 스택](#Tech-Stacks)
-11. [프로젝트 회고](#Feedback)
+10. [관련 Storaged Object](#Trigger-Function-Procedure)
+11. [기술 스택](#Tech-Stacks)
+12. [프로젝트 회고](#Feedback)
 
 ---
 
